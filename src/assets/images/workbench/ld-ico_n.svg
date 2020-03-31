@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="80px" viewBox="0 0 84 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>工作台3_n</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="99.8680321%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#AFC4FF" offset="0%"></stop>
+            <stop stop-color="#9BB7FF" offset="49.5988176%"></stop>
+            <stop stop-color="#AFC4FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="76.8183428%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#B5C7FF" offset="0%"></stop>
+            <stop stop-color="#7196FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="76.8183428%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#B5C7FF" offset="0%"></stop>
+            <stop stop-color="#7196FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="50%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#C2DAFF" offset="0%"></stop>
+            <stop stop-color="#A3BFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="1.1版本" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="资产工作台1920x1080" transform="translate(-1346.000000, -180.000000)">
+            <g id="切换" transform="translate(300.000000, 170.000000)">
+                <g id="分组" transform="translate(1046.000000, 10.000000)">
+                    <g id="icon3-copy-3" transform="translate(10.000000, 3.000000)">
+                        <path d="M8,20.0354047 L56,20.0354047 L56,50 C56,63.254834 45.254834,74 32,74 L32,74 C18.745166,74 8,63.254834 8,50 L8,20.0354047 Z" id="矩形" fill="url(#linearGradient-1)"></path>
+                        <path d="M8,20.0354047 L32,20.0354047 L17.5498682,73 L17.5498682,73 C6.62415763,71.650013 -1.13850012,61.698594 0.211486842,50.7728834 C0.317919264,49.9115048 0.480497094,49.0579972 0.698182266,48.2178103 L8,20.0354047 Z" id="矩形" fill="url(#linearGradient-2)" opacity="0.400000006"></path>
+                        <path d="M39.9410181,20.0354047 L63.9410181,20.0354047 L49.4908863,73 L49.4908863,73 C38.5651757,71.650013 30.8025179,61.698594 32.1525049,50.7728834 C32.2589373,49.9115048 32.4215152,49.0579972 32.6392003,48.2178103 L39.9410181,20.0354047 Z" id="矩形" fill="url(#linearGradient-3)" opacity="0.400000006" transform="translate(47.970509, 46.517702) scale(-1, 1) translate(-47.970509, -46.517702) "></path>
+                        <path d="M11.48,20.0354047 C11.48,14.3892794 13.4788368,9.92328002 17.4757076,5.95381177 C21.4733813,1.98434361 26.3142767,0 31.9999999,0 C37.6857232,0 42.5266187,1.98434361 46.5242924,5.95381177 C50.5211632,9.92327993 52.52,14.3900602 52.52,20.0354047 L11.48,20.0354047 Z" id="路径-copy" fill="url(#linearGradient-4)" fill-rule="nonzero"></path>
+                        <ellipse id="椭圆形" fill="#A7BEFF" cx="20.54" cy="10.0072464" rx="1.5" ry="2.5"></ellipse>
+                        <ellipse id="椭圆形-copy-10" fill="#A7BEFF" cx="45.38" cy="10.0072464" rx="1.5" ry="2.5"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

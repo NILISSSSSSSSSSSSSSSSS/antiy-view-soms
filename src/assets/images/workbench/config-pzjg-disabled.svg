@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="96px" viewBox="0 0 100 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>配置加固</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#DDE9FD" offset="0%"></stop>
+            <stop stop-color="#C2D5F8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#9EAFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="1.1版本" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="配置工作台1920x1080-copy" transform="translate(-1304.000000, -494.000000)">
+            <g id="分组" transform="translate(737.000000, 494.000000)">
+                <g id="配置加固" transform="translate(567.000000, 0.000000)">
+                    <rect id="矩形-copy-39" fill="#A7ACB7" x="0" y="0" width="100" height="96" rx="4"></rect>
+                    <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="22" y="81">配置加固</tspan>
+                    </text>
+                    <g id="基准验证" transform="translate(21.000000, 19.000000)">
+                        <g id="Group-61">
+                            <g id="Group-48">
+                                <path d="M2,0 L46,0 C47.1045695,-2.02906125e-16 48,0.8954305 48,2 L48,38 C48,39.1045695 47.1045695,40 46,40 L2,40 C0.8954305,40 1.3527075e-16,39.1045695 0,38 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-12" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                                <path d="M4,2 L44,2 C45.1045695,2 46,2.8954305 46,4 L46,36 C46,37.1045695 45.1045695,38 44,38 L4,38 C2.8954305,38 2,37.1045695 2,36 L2,4 C2,2.8954305 2.8954305,2 4,2 Z" id="Rectangle-12-Copy-2" fill="url(#linearGradient-2)"></path>
+                            </g>
+                            <g id="分组-4" transform="translate(6.000000, 6.000000)">
+                                <rect id="Rectangle-30" fill="#50E3C2" x="8" y="0" width="8" height="2"></rect>
+                                <rect id="Rectangle-30-Copy-2" fill="#50E3C2" x="23.9965491" y="0" width="8" height="2"></rect>
+                                <rect id="Rectangle-30-Copy" fill="#5C86FE" x="0.00345086272" y="0" width="6" height="2"></rect>
+                                <rect id="Rectangle-30-Copy-3" fill="#5C86FE" x="18" y="0" width="4" height="2"></rect>
+                                <rect id="Rectangle-30" fill="#50E3C2" transform="translate(20.000000, 19.000000) scale(-1, 1) translate(-20.000000, -19.000000) " x="16" y="18" width="8" height="2"></rect>
+                                <rect id="Rectangle-30-Copy-2" fill="#50E3C2" transform="translate(4.000000, 19.000000) scale(-1, 1) translate(-4.000000, -19.000000) " x="0" y="18" width="8" height="2"></rect>
+                                <rect id="Rectangle-30-Copy" fill="#5C86FE" transform="translate(29.000000, 19.000000) scale(-1, 1) translate(-29.000000, -19.000000) " x="26" y="18" width="6" height="2"></rect>
+                                <rect id="Rectangle-30-Copy-3" fill="#5C86FE" transform="translate(12.001650, 19.000000) scale(-1, 1) translate(-12.001650, -19.000000) " x="10.0016504" y="18" width="4" height="2"></rect>
+                                <rect id="Rectangle-30-Copy" fill="#5C86FE" x="0" y="10" width="8" height="2"></rect>
+                                <rect id="Rectangle-30" fill="#50E3C2" x="24" y="4" width="6" height="2"></rect>
+                                <rect id="Rectangle-30-Copy" fill="#50E3C2" x="0" y="4" width="14" height="2"></rect>
+                                <rect id="Rectangle-30-Copy-3" fill="#5C86FE" x="16" y="4" width="6" height="2"></rect>
+                                <rect id="Rectangle-30" fill="#50E3C2" transform="translate(2.000000, 23.000000) scale(-1, 1) translate(-2.000000, -23.000000) " x="0" y="22" width="4" height="2"></rect>
+                                <rect id="Rectangle-30-Copy-4" fill="#50E3C2" transform="translate(28.003451, 23.000000) scale(-1, 1) translate(-28.003451, -23.000000) " x="26.0034509" y="22" width="4" height="2"></rect>
+                                <rect id="Rectangle-30-Copy" fill="#50E3C2" transform="translate(19.000000, 23.000000) scale(-1, 1) translate(-19.000000, -23.000000) " x="14" y="22" width="10" height="2"></rect>
+                                <rect id="Rectangle-30-Copy-3" fill="#5C86FE" transform="translate(9.000000, 23.000000) scale(-1, 1) translate(-9.000000, -23.000000) " x="6" y="22" width="6" height="2"></rect>
+                                <rect id="Rectangle-30" fill="#50E3C2" x="20" y="14" width="4" height="2"></rect>
+                                <rect id="Rectangle-30-Copy" fill="#50E3C2" x="0" y="14" width="10" height="2"></rect>
+                                <rect id="Rectangle-30-Copy-3" fill="#5C86FE" x="12.0034509" y="14" width="6" height="2"></rect>
+                            </g>
+                        </g>
+                        <path d="M39,22 L57,22 C58.1045695,22 59,22.8954305 59,24 L59,42 C59,43.1045695 58.1045695,44 57,44 L39,44 C37.8954305,44 37,43.1045695 37,42 L37,24 C37,22.8954305 37.8954305,22 39,22 Z" id="Rectangle-19-Copy-5" fill="#E0EBFE"></path>
+                        <path d="M48,25 L41,27.2857143 L41,34.1428571 C41,37.9303571 44.1335938,41 48,41 C51.8664062,41 55,37.9303571 55,34.1428571 L55,27.2857143 L48,25 Z M53.6875,34.1428571 C53.6875,37.2196429 51.1408854,39.7142857 48,39.7142857 C44.8591146,39.7142857 42.3125,37.2196429 42.3125,34.1428571 L42.3125,28.25 L48,26.2857143 L53.6875,28.25 L53.6875,34.1428571 Z M45.5645833,32.3410714 C45.3075521,32.0892857 44.8919271,32.0892857 44.6367188,32.3410714 C44.3796875,32.5928571 44.3796875,33 44.6367188,33.25 L46.9955729,35.5607143 L47.0338542,35.5982143 C47.2763021,35.8357143 47.6682292,35.8357143 47.9106771,35.5982143 L51.9848958,31.6071429 C52.2273438,31.3696429 52.2273438,30.9857143 51.9848958,30.7482143 L51.9338542,30.6982143 C51.6914062,30.4607143 51.2994792,30.4607143 51.0570313,30.6982143 L47.4713542,34.2089286 L45.5645833,32.3410714 Z" id="Shape" fill="#3B6CFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,68 @@
+@import "~@/assets/less/vars.less";
+@color: #3B6CFF;
+@borderRadius: 2px;
+.progress-Bar-box{
+  box-sizing: content-box !important;
+  width: 300px;
+  height: 30px;
+  padding: 2px;
+  text-align: center;
+  position: relative;
+  border: 1px solid @input-border-color;
+  border-radius: @borderRadius;
+  display: inline-block;
+  .current-progress{
+    box-sizing: content-box !important;
+    height: 30px;
+    background-color: @color;
+    border-radius: @borderRadius;
+  }
+  .current-progress-text{
+    z-index: 2;
+    position: absolute;
+    line-height: 30px;
+    height: 30px;
+  }
+  .current-progress-text.progress-color{
+    color: #fff;
+  }
+  .current-progress-name{
+    box-sizing: content-box !important;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    padding-left: 6px;
+    .current-progress-label{
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      text-align: center;
+      .table-tooltop{
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+      }
+      .ant-tooltip-inner{
+        white-space: normal;
+      }
+    }
+    .current-progress-check{
+      text-align: center;
+      width: 100%;
+      font-size: 14px;
+      letter-spacing: 0;
+    }
+  }
+  .current-progress-name:hover{
+    font-size: 14px;
+    color: @red-color;
+    //font-weight: 800;
+  }
+  .current-progress-close{
+    margin-right: 6px;
+  }
+
+}
+.has-error .progress-Bar-box{
+  border: 1px solid @red-color;
+}

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NetworkAccess /> shoulder render a NetworkAccess 1`] = `
+"<Connect(Form(commonModal)) title=\\"入网实施\\" type=\\"search\\" visible={true} width={900} oktext=\\"确定\\" onConfirm={[Function]} onClose={[Function: onClose]}>
+  <div className=\\"AssetsProcess\\">
+    <div className=\\"process-wrap\\">
+      <div className=\\"modal-content\\">
+        <Table className=\\"table-small\\" rowKey=\\"stringId\\" columns={{...}} dataSource={{...}} pagination={false} useFixedHeader={false} size=\\"default\\" loading={false} bordered={false} indentSize={20} locale={{...}} showHeader={true} sortDirections={{...}} childrenColumnName=\\"children\\" />
+        {true}
+        <section>
+          <h3>
+            填写入网结果
+          </h3>
+          <Form layout=\\"horizontal\\" colon={true} hideRequiredMark={false} onSubmit={[Function: onSubmit]}>
+            <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"入网结果\\" hasFeedback={false}>
+              <RadioGroup onChange={[Function: bound bound onCollectValidate]} disabled={false} buttonStyle=\\"outline\\" value={1} id=\\"agree\\" data-__meta={{...}} data-__field={{...}}>
+                <Radio value={1} type=\\"radio\\">
+                  通过
+                </Radio>
+                <Radio value={0} type=\\"radio\\">
+                  拒绝
+                </Radio>
+              </RadioGroup>
+            </FormItem>
+            <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"备注\\" hasFeedback={false}>
+              <TextArea rows={6} maxLength={300} placeholder=\\"填写退役实施结果，或拒绝退役的原因\\" style={{...}} value={[undefined]} id=\\"note\\" onChange={[Function: bound bound onCollectValidate]} data-__meta={{...}} data-__field={{...}} />
+            </FormItem>
+            <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"上传附件\\" hasFeedback={false}>
+              <Upload name=\\"fileList\\" action=\\"/api/v1/asset/file/upload\\" beforeUpload={[Function: beforeUpload]} accept=\\".rar,.zip,.7z,.doc,.docx,.jpg,.pdf,.png,.txt,.xlsx,.xls\\" onChange={[Function: bound bound onCollect]} fileList=\\"\\" data={{...}} headers={{...}} type=\\"select\\" multiple={false} showUploadList={true} listType=\\"text\\" className=\\"\\" disabled={false} supportServerRender={true} value={[undefined]} id=\\"file\\" data-__meta={{...}} data-__field={{...}}>
+                <div className=\\"work-order-add-upload\\">
+                  <Icon type=\\"plus\\" />
+                    上传附件  
+                </div>
+              </Upload>
+              <div className=\\"format\\">
+                <div>
+                  <p>
+                    支持上传大小：0-10M
+                  </p>
+                  <p>
+                    支持扩展名：.rar .zip .7z .doc .docx .jpg .pdf .png .txt .xlsx .xls 
+                  </p>
+                </div>
+              </div>
+            </FormItem>
+          </Form>
+        </section>
+      </div>
+    </div>
+  </div>
+</Connect(Form(commonModal))>"
+`;

@@ -1,0 +1,41 @@
+.two-item-search{
+    background-color: #1E2948;
+    display: flex;
+    padding: 0 70px 15px 40px;
+    flex-wrap: wrap;
+    margin: 0 0 20px 0;
+    .first-input{
+        margin-right: 30px
+    }
+    .ant-row.ant-form-item {
+        margin: 0px;
+        height: 60px;
+        flex: 0 0 calc(~'100% / 3 - 20px');
+        .ant-col.ant-form-item-control-wrapper{
+            width: calc(~'100% - 98.03px');
+            .ant-form-item-children {
+              & > .ant-input, & > .ant-select, .filter-form-item.ant-input-affix-wrapper{
+                width: calc(~'100%') !important;
+              }
+            }
+            .daterange-custom{
+              width: calc(~'100%') !important;
+              .split{
+                margin: 0;
+              }
+            }
+          }
+      }
+    .two-item-search-btn{
+         margin-left: 36px;
+        .ant-btn-primary{
+            margin-right: 12px;
+        }
+    }
+}
+.ant-col.ant-form-item-label{
+    width: 98.02px !important;
+    label::after{
+        margin: 0 16px 0 4px !important;
+        }
+}

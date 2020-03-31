@@ -1,0 +1,32 @@
+.time-filter{
+  // margin-bottom: 10px;
+  display: flex;
+  .ant-radio-group{
+    display: flex;
+    min-width: 332px;
+  }
+  .ant-radio-button-wrapper{
+    color: #98ACD9;
+    border: none !important;
+    border-radius: 2px 2px
+  }
+  .ant-radio-button-wrapper:first-child{
+    border-radius: 2px 2px
+  }
+  .ant-radio-button-wrapper:last-child{
+    border-radius: 2px 2px
+  }
+  .ant-radio-button-wrapper:not(:first-child)::before {
+    background-color: transparent !important;
+    width: 0 ;
+  }
+  .ant-radio-button-wrapper-checked{
+    border: none !important;
+    background: #05CC7F !important;
+    box-shadow: none
+  }
+  .ant-radio-button-wrapper-checked::before{
+    background-color: transparent !important;
+    width: 0;
+  }
+}

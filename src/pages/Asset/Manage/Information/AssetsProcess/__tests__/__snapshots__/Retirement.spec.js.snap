@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Retirement /> shoulder render a Retirement 1`] = `
+"<Connect(Form(commonModal)) title=\\"待退役\\" type=\\"search\\" visible={false} width={680} oktext=\\"确定\\" onConfirm={[Function]} onClose={[Function: onClose]}>
+  <div className=\\"AssetsProcess\\">
+    <div className=\\"process-wrap\\">
+      <div className=\\"modal-content\\">
+        <section>
+          <h3>
+            填写退役结果
+          </h3>
+          <Form layout=\\"horizontal\\" colon={true} hideRequiredMark={false} onSubmit={[Function: onSubmit]}>
+            <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"制定退役方案\\" hasFeedback={false}>
+              <TextArea rows={6} maxLength={300} placeholder=\\"请输入\\" style={{...}} value={[undefined]} id=\\"note\\" onChange={[Function: bound bound onCollectValidate]} data-__meta={{...}} data-__field={{...}} />
+            </FormItem>
+            <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"上传附件\\" hasFeedback={false}>
+              <Upload name=\\"fileList\\" action=\\"/api/v1/asset/file/upload\\" beforeUpload={[Function: beforeUpload]} accept=\\".rar,.zip,.7z,.doc,.docx,.jpg,.pdf,.png,.txt,.xlsx,.xls\\" onChange={[Function: bound bound onCollect]} fileList=\\"\\" data={{...}} headers={{...}} type=\\"select\\" multiple={false} showUploadList={true} listType=\\"text\\" className=\\"\\" disabled={false} supportServerRender={true} value={[undefined]} id=\\"file\\" data-__meta={{...}} data-__field={{...}}>
+                <div className=\\"work-order-add-upload\\">
+                  <Icon type=\\"plus\\" />
+                    上传附件  
+                </div>
+              </Upload>
+              <div className=\\"format\\">
+                <div>
+                  <p>
+                    支持上传大小：0-10M
+                  </p>
+                  <p>
+                    支持扩展名：.rar .zip .7z .doc .docx .jpg .pdf .png .txt .xlsx .xls 
+                  </p>
+                </div>
+              </div>
+            </FormItem>
+            <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"退役执行人\\" hasFeedback={false}>
+              <Select showSearch={true} allowClear={true} getPopupContainer={[Function: getPopupContainer]} placeholder=\\"请选择\\" optionFilterProp=\\"children\\" transitionName=\\"slide-up\\" choiceTransitionName=\\"zoom\\" value={[undefined]} id=\\"operator\\" onChange={[Function: bound bound onCollectValidate]} data-__meta={{...}} data-__field={{...}}>
+                <Option value=\\"all\\">
+                  全部
+                </Option>
+                <Option value={666}>
+                  666
+                </Option>
+              </Select>
+            </FormItem>
+          </Form>
+        </section>
+      </div>
+    </div>
+  </div>
+</Connect(Form(commonModal))>"
+`;

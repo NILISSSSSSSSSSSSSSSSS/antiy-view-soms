@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImportAssets /> shoulder render a ImportAssets 1`] = `
+"<Spin spinning={false} size=\\"default\\" wrapperClassName=\\"\\">
+  <div className=\\"Information\\">
+    <Form layout=\\"horizontal\\" onSubmit={[Function: mockConstructor]} colon={true} hideRequiredMark={false}>
+      <FormItem label=\\"选择导入类型\\" labelCol={{...}} wrapperCol={{...}} hasFeedback={false}>
+        <Select allowClear={true} placeholder=\\"请选择\\" getPopupContainer={[Function: getPopupContainer]} showSearch={false} transitionName=\\"slide-up\\" choiceTransitionName=\\"zoom\\" value={[undefined]} id=\\"category\\" onChange={[Function: bound bound onCollectValidate]} data-__meta={{...}} data-__field={{...}}>
+          <Option value={1}>
+            计算设备
+          </Option>
+          <Option value={2}>
+            网络设备
+          </Option>
+          <Option value={3}>
+            安全设备
+          </Option>
+          <Option value={4}>
+            存储设备
+          </Option>
+          <Option value={5}>
+            其它设备
+          </Option>
+        </Select>
+      </FormItem>
+      <div>
+        <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"选择文件\\" hasFeedback={false}>
+          <Input autoComplete=\\"off\\" style={{...}} placeholder=\\"请选择文件\\" type=\\"text\\" disabled={false} value={[undefined]} id=\\"file\\" onChange={[Function: bound bound onCollectValidate]} data-__meta={{...}} data-__field={{...}} />
+        </FormItem>
+        <input type=\\"file\\" id=\\"Information-uploads\\" accept=\\".xlsx,.xls\\" onChange={[Function: mockConstructor]} />
+      </div>
+      <Button style={{...}} htmlType=\\"submit\\" id=\\"Information-alert-post\\" loading={false} ghost={false} block={false} />
+    </Form>
+  </div>
+</Spin>"
+`;

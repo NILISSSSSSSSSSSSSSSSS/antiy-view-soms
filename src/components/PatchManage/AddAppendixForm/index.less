@@ -1,0 +1,77 @@
+.patch-category-box{
+  position: relative;
+  .patch-add-btn{
+    position: absolute;
+    right: -30px;
+    top:-28px;
+    font-size: 18px;
+    cursor: pointer;
+    &:hover{
+      color: #3B6CFF;  
+    }
+  }
+}
+.patch-manage-uploads{
+  .form-wrap{
+    padding-bottom: 47px;
+  }
+}
+.patch-manage-uploads-progress{
+  padding: 45px 40px 0 40px; 
+  text-align: center;
+  .text-content{
+    img{
+      width: 24px;
+      margin: 8px;
+    }
+  }
+  .btn-wrap{
+    padding-top: 45px;
+  }
+}
+.New-flex-layout{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-flow: wrap;
+  padding: 18px 40px 0px 40px;
+  .ant-form-item{
+    display: flex;
+  }
+  .item-separation{
+    margin: 0 30px !important;
+  }
+  .search-item{
+    .show-ondition{
+      margin-left: 30px !important;
+    }
+    button:nth-child(1){
+      margin-right: 12px !important;
+    }
+  }
+  .ant-row.ant-form-item{
+    flex: 0 0 calc(~'100% / 3 - 20px');
+    // margin: 0 0 20px 0;
+    .ant-form-item-control, .ant-form-item-label{
+      line-height: 32px
+    }
+    .ant-col.ant-form-item-label{
+      flex: 0 0 100px !important;
+      label::after{
+        margin: 0 16px 0 4px !important;
+      }
+    }
+    .ant-col.ant-form-item-control-wrapper{
+      flex: 0 0 calc(~'100% - 100px') !important;
+      .ant-form-item-children {
+        & > .ant-input, .filter-form-item.ant-input-affix-wrapper{
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}
+.bug-analyze-upload{
+  color:#fff;
+  cursor: pointer;
+}

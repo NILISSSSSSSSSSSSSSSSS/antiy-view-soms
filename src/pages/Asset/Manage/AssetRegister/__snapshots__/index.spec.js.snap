@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`资产新登记页面 <AssetRegister /> renderFrontStep ===》渲染上一步的驳回信息 1`] = `
+<div
+  className="font-step-info"
+>
+  <div>
+    整改备注
+    <span
+      className="font-step-info-note"
+    >
+      通过
+    </span>
+  </div>
+  <div>
+    附件：
+    <span
+      className="picture"
+      onClick={[Function]}
+    >
+      测试
+    </span>
+  </div>
+</div>
+`;

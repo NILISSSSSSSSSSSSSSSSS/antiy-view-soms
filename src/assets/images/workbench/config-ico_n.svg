@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="80px" viewBox="0 0 84 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>工作台2_n</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="90.7353428%" y1="20.7544505%" x2="11.1032902%" y2="76.6557835%" id="linearGradient-1">
+            <stop stop-color="#789BFF" offset="0%"></stop>
+            <stop stop-color="#9DB8FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="33.813912%" y1="11.8623184%" x2="50%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#82A7FF" offset="0%"></stop>
+            <stop stop-color="#A3C0FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="1.1版本" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="资产工作台1920x1080" transform="translate(-956.000000, -180.000000)">
+            <g id="切换" transform="translate(300.000000, 170.000000)">
+                <g id="分组-2-copy-5" transform="translate(656.000000, 10.000000)">
+                    <g id="分组-2-copy-4" transform="translate(8.000000, 4.000000)">
+                        <polygon id="矩形" fill="url(#linearGradient-1)" transform="translate(33.500000, 58.000000) rotate(-315.000000) translate(-33.500000, -58.000000) " points="24.2814265 48.0743197 57.1880772 34.3119228 44.4956571 68.2885503 9.81192283 81.6880772"></polygon>
+                        <polygon id="矩形" fill="url(#linearGradient-2)" points="34 5.70446468e-14 67 14 67 58 34 44.4629683"></polygon>
+                        <polygon id="矩形-copy-9" fill="#C2D5FF" transform="translate(17.000000, 29.000000) scale(-1, 1) translate(-17.000000, -29.000000) " points="2.68212708e-29 5.70446468e-14 34 14 34 58 2.68212708e-29 44.4629683"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

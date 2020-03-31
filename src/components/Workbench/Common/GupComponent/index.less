@@ -1,0 +1,40 @@
+.workbench-asset-mange{
+  .workbench-asset-mange-row{
+    //margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .workbench-asset-mange-item{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      cursor: pointer;
+      .workbench-asset-mange-item-disabled{
+        cursor: default;
+      }
+      img{
+        width: 100px;
+      }
+    }
+    .workbench-asset-mange-item-line-box{
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .even-column{
+      .workbench-asset-mange-item-line-box{
+        width: 70px;
+        img{
+          width: 70px;
+        }
+      }
+    }
+    .item-disabled{
+      cursor: default;
+      background-color: silver;
+    }
+  }
+
+}

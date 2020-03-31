@@ -1,0 +1,176 @@
+.upgrade-set{
+    .ant-input{
+        width: 300px;
+    }
+    .popover{
+        padding: 0 10px;
+    }
+    .detail-title-offline{
+        &:before{
+            background: url('../../../assets/icon_title_2.svg') no-repeat !important;
+            background-size: 20px 20px !important;
+        }
+    }
+    .attachment{
+        display: flex;
+        flex-wrap: wrap;
+        &-item{
+            width: 200px;
+            height: 120px;
+            margin: 10px 20px 10px 0;
+            padding: 0;
+            border: 1px solid #DEE4EE ;
+            border-radius: 2px;
+            background-color: #fff;
+            text-align: center;
+            cursor: pointer;
+            &:last-child{
+                margin-right: 0;
+            }
+            &-title{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 80px;
+                font-size: 16px;
+                color: #333;
+                margin-bottom: 0;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .download{
+                background: #F1F4FF;
+                height: 40px;
+                color: #3B6CFF;
+                font-size: 14px;
+                .ant-upload{
+                color: #3B6CFF;
+                }
+                .download-icon{
+                width: 20px;
+                height: 20px;
+                flex-shrink: 0;
+                margin-right: 8px;
+                margin-top: -2px;
+                }
+            }
+        }
+    }
+    .attachment-item{
+        position: relative;
+        .ant-upload{
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            >span{
+                line-height: 40px;
+            }
+        }
+        .download{
+            background: #F1F4FF;
+            height: 40px;
+            color: #3B6CFF;
+            font-size: 14px;
+            .ant-upload{
+                color: #3B6CFF;
+            }
+            .download-icon{
+                width: 20px;
+                height: 20px;
+                flex-shrink: 0;
+                margin-right: 8px;
+            }
+        }
+        &:hover {
+            border: 1px solid #3B6CFF;
+            transition: all .3s ease-in-out;
+        }
+    }
+}
+.online-set-form{
+    .ant-time-picker{
+        width: 300px;
+        .ant-time-picker-input{
+            border-radius: 0;
+        }
+    }
+    .ant-calendar-picker{
+        width: 300px;
+    }
+}
+.progress-wrap{
+    padding: 20px 0;
+    .import{
+        margin: 70px auto 0px;
+        width: 280px;
+        .tips{
+            text-align: center;
+            margin: 6px 0;
+            padding: 6px 0;
+            .percent{
+                color: #3B6CFF;
+            }
+        }
+    }
+    .success{
+        text-align: center;
+        .complete{
+            margin: 33px auto 8px;
+            img{
+                width: 24px;
+                margin: 0 8px;
+            }
+            span{
+                font-size: 18px;
+                vertical-align: middle;
+            }
+        }
+        .version{
+            padding: 0 8px;
+        }
+        .waiting{
+            padding: 54px 8px 14px;
+        }
+        .err-msg{
+            color: #FF4F4F;
+            span{
+                vertical-align: middle;
+            }
+            img{
+                width: 16px;
+                margin: 0 8px;
+            }
+        }
+        .btn-wrap{
+            margin-top: 15px;
+            button{
+                &.back{
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+    .loading{
+        text-align: center;
+        margin: 50px auto 18px;
+        .msg{
+            margin-top: 20px;
+        }
+    }
+}
+.download-modal{
+    .has-error{
+        .end-time{
+            .ant-input{
+                border-color: #d9d9d9 !important;
+                &:hover{
+                    border-color: #d9d9d9 !important;
+                }
+            }
+        }
+    }
+}
+

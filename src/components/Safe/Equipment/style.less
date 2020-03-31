@@ -1,0 +1,75 @@
+@import "~@/assets/less/vars.less";
+.equipment{
+  overflow: hidden;
+  background-color: @bg-color-content;
+  color: #FFFFFF;
+  border: 1px solid #202F61;
+  border-radius: 2px;
+  .content-box{
+    position: relative;
+    padding:0 20px;
+    color: @label-color;
+    .sub-title{
+      margin-bottom: 0;
+      padding:15px 0;
+      font-size: 16px;
+    }
+    .bugTotal{
+      //display: none;
+      height: 100px;
+      border-radius: 100%;
+      width: 16.66667%;
+      text-align: center;
+      line-height: 100px;
+      font-weight: 400;
+      position: absolute;
+      font-size: 28px;
+      top: 205px;
+      left: 22.5%;
+      z-index: 99;
+    }
+  }
+  .progress-box{
+    overflow: hidden;
+    display: flex;
+    .progress-placeholder{
+      width: 100%;
+      border: 1px solid @label-color;
+    }
+    div{
+      margin-bottom: 10px;
+      padding-left: 10px;
+      height: 40px;
+      line-height: 40px;
+      min-width: 30px;
+    }
+    .left-progress{
+      float: left;
+      background: @blue-color;
+      color: #FFFFFF;
+    }
+    .right-progress{
+      float: left;
+      color: @blue-color;
+      background:#d1e9ff;
+
+    }
+  }
+  .text-box{
+    span{
+      font-size: 14px;
+    }
+  }
+  #equipment-main{
+    position: relative;
+    top:-70px;
+  }
+}
+.equipment-modal{
+  .ant-modal-body{
+    padding:0 !important;
+  }
+  .tags-box{
+    margin: 20px 0;
+  }
+}

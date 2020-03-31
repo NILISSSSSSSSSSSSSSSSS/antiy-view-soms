@@ -1,0 +1,87 @@
+@import '../../../../assets/less/vars.less';
+.asset-register-container{
+  position: relative;
+  //padding-top: 40px !important;
+  .asset-register-template-header{
+    font-size: 14px;
+    color: @detail-label-color;
+  }
+  .font-step-info{
+    // background: #FFDEB5;
+    color: #C28335;
+    letter-spacing: 0;
+    line-height: 20px;
+    //height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    //position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px 40px;
+    width: 100%;
+    .font-step-info-note-box, .font-step-info-adjunct-box{
+      width: 100%;
+      position: relative;
+      display: flex;
+    }
+    .font-step-info-note-box .font-step-info-note, .font-step-info-adjunct-box .font-step-info-adjunct{
+      width: calc(~'100% - 74px');
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      display: inline-block;
+      //position: absolute;
+      left: 74px;
+      top: 0;
+      .ant-tooltip-inner{
+        white-space: normal;
+      }
+    }
+    .font-step-info-adjunct{
+      display: flex !important;
+      flex-direction: column;
+    }
+    .font-step-info-adjunct>div{
+      text-overflow: ellipsis;
+      overflow: hidden;
+      display: inline-block;
+    }
+    .font-step-info-label{
+      width: 74px;
+    }
+    .picture{
+      color: #3469FF;
+      cursor: pointer;
+    }
+  }
+  .custom-panel-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #506099;
+    padding-bottom: 11px;
+    color: #FFFFFF;
+    .custom-panel-header-unfold{
+      color: #3B6CFF;
+      cursor: pointer;
+    }
+  }
+
+  // 重新定义手风琴样式
+  .ant-collapse.custom-collapse{
+    padding: 20px 40px;
+    background: #151B30;
+    .ant-collapse-header{
+      padding-left: 0;
+      i{
+        display: none;
+      }
+    }
+    .ant-collapse-item{
+      border: 0;
+    }
+  }
+
+}

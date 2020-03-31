@@ -1,0 +1,84 @@
+
+@borderColor:  #506099;
+@disabledColor: #18213D;
+@errColor: #FF0000;
+@btnsHeight: 50px;
+.asset-template{
+  display: flex;
+  h4{
+    color:white
+  }
+  &>div{
+    width: 50%;
+    padding: 10px;
+    .asset-template-box{
+      width: 308px;
+      height: 214px;
+      border: 1px solid @borderColor;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #4083FF;
+    }
+    .asset-template-box.disabled-template{
+      background-color: disabledColor;
+      cursor: not-allowed;
+    }
+    .asset-template-box.err-template{
+      border-color: @errColor;
+      color: @errColor;
+    }
+  }
+  .must{
+    font-weight: 400;
+    color: @errColor;
+    margin: 0 4px;
+  }
+  .asset-template-card{
+    position: relative;
+    //padding: 4px 4px 0 4px;
+    border: 1px solid @borderColor;
+    width: 324px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    .asset-template-card-content{
+      height: 190px; /*此高度为 父级高度 - @btnsHeight */
+      padding: 0 20px;
+      width: 100%;
+      position: relative;
+      &>div{
+        line-height: 14px;
+        margin: 15px 0;
+      }
+      .asset-template-card-close{
+        position: absolute;
+        right: 4px;
+        top: 4px;
+        cursor: pointer;
+      }
+    }
+    .asset-template-card-btns{
+      height: @btnsHeight;
+      display: flex;
+      &>div{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        // background-color: #F1F4FF;
+        color: #3B6CFF;
+        border-top: 1px solid @borderColor;
+        &:first-child{
+          border-right: 1px solid @borderColor;
+        }
+      }
+      &>div.only-read{
+        width: 100%;
+      }
+    }
+  }
+}
+

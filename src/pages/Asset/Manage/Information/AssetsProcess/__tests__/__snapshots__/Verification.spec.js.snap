@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Verification /> shoulder render a Verification 1`] = `
+"<Connect(Form(commonModal)) title=\\"结果验证\\" type=\\"search\\" visible={true} width={680} oktext=\\"确定\\" onConfirm={[Function]} onClose={[Function: onClose]}>
+  <div className=\\"AssetsProcess\\">
+    <div className=\\"process-wrap\\">
+      <div className=\\"modal-content\\">
+        <section className=\\"operate-info\\">
+          <h3>
+            结果验证
+          </h3>
+          <p>
+            请先对资产的漏洞情况和基准情况进行扫描。
+          </p>
+          <div className=\\"operate-content\\">
+            <div className=\\"result-info\\">
+              <img src=\\"test-file-stub\\" className=\\"item-icon\\" alt=\\"\\" />
+              <span>
+                漏洞检查结果：
+              </span>
+              <span className=\\"info\\">
+                漏洞检查中,请等待
+              </span>
+            </div>
+          </div>
+          <br />
+          <span className=\\"download\\">
+            <img src=\\"test-file-stub\\" className=\\"download-icon\\" alt=\\"\\" />
+            <a onClick={[Function]}>
+              下载模板
+            </a>
+          </span>
+          <span className=\\"operate\\">
+            <Upload name=\\"file\\" accept=\\".xml\\" action=\\"/api/v1/config/check/uploadCheckResult\\" headers={{...}} multiple={false} showUploadList={false} onChange={[Function: onChange]} data={{...}} beforeUpload={[Function: beforeUpload]} disabled={false} type=\\"select\\" listType=\\"text\\" className=\\"\\" supportServerRender={true}>
+              <span>
+                上传结果
+              </span>
+            </Upload>
+          </span>
+        </section>
+        <section>
+          <h3>
+            填写验证结果
+          </h3>
+          <Form layout=\\"horizontal\\" colon={true} hideRequiredMark={false} onSubmit={[Function: onSubmit]}>
+            <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"验证结果\\" hasFeedback={false}>
+              <RadioGroup onChange={[Function: bound bound onCollectValidate]} disabled={false} buttonStyle=\\"outline\\" value={1} id=\\"agree\\" data-__meta={{...}} data-__field={{...}}>
+                <Radio value={1} type=\\"radio\\">
+                  通过
+                </Radio>
+                <Radio value={0} type=\\"radio\\">
+                  拒绝
+                </Radio>
+              </RadioGroup>
+            </FormItem>
+            <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"备注\\" hasFeedback={false}>
+              <TextArea rows={6} maxLength={300} placeholder=\\"填写退役实施结果，或拒绝退役的原因\\" style={{...}} value={[undefined]} id=\\"note\\" onChange={[Function: bound bound onCollectValidate]} data-__meta={{...}} data-__field={{...}} />
+            </FormItem>
+            <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"上传附件\\" hasFeedback={false}>
+              <Upload name=\\"fileList\\" action=\\"/api/v1/asset/file/upload\\" beforeUpload={[Function: beforeUpload]} accept=\\".rar,.zip,.7z,.doc,.docx,.jpg,.pdf,.png,.txt,.xlsx,.xls\\" onChange={[Function: bound bound onCollect]} fileList=\\"\\" data={{...}} headers={{...}} type=\\"select\\" multiple={false} showUploadList={true} listType=\\"text\\" className=\\"\\" disabled={false} supportServerRender={true} value={[undefined]} id=\\"file\\" data-__meta={{...}} data-__field={{...}}>
+                <div className=\\"work-order-add-upload\\">
+                  <Icon type=\\"plus\\" />
+                    上传附件  
+                </div>
+              </Upload>
+              <div className=\\"format\\">
+                <div>
+                  <p>
+                    支持上传大小：0-10M
+                  </p>
+                  <p>
+                    支持扩展名：.rar .zip .7z .doc .docx .jpg .pdf .png .txt .xlsx .xls 
+                  </p>
+                </div>
+              </div>
+            </FormItem>
+            <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"入网实施执行人\\" hasFeedback={false}>
+              <Select showSearch={true} allowClear={true} getPopupContainer={[Function: getPopupContainer]} placeholder=\\"请选择\\" optionFilterProp=\\"children\\" transitionName=\\"slide-up\\" choiceTransitionName=\\"zoom\\" value={[undefined]} id=\\"operator\\" onChange={[Function: bound bound onCollectValidate]} data-__meta={{...}} data-__field={{...}}>
+                <Option value=\\"all\\">
+                  全部
+                </Option>
+                <Option value={666}>
+                  666
+                </Option>
+              </Select>
+            </FormItem>
+          </Form>
+        </section>
+      </div>
+    </div>
+  </div>
+</Connect(Form(commonModal))>"
+`;

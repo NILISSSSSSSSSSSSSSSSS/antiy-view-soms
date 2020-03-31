@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`资产概览 <AssetOverview /> 快照 1`] = `
+"<div className=\\"asset-overview\\">
+  <div className=\\"asset-overview-flex\\">
+    <Connect(AssetInformation) />
+    <Connect(AssetManufacturer) />
+  </div>
+  <div className=\\"asset-overview-flex\\">
+    <Connect(AssetStatus) />
+    <Connect(AssetError) />
+  </div>
+</div>"
+`;

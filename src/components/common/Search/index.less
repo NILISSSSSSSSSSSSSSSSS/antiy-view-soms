@@ -1,0 +1,217 @@
+//查询条件的相隔间距
+@search-item-separation-width: 30px;
+.custom-form{
+  //height: 46px;
+  .daterange-custom{
+    //height: 46px;
+    margin-top: 4px;
+  }
+  .filter-form{
+    // padding: 20px 20px 10px;
+    padding: 22px 70px 20px 40px;
+    // border-bottom: 20px solid #f0f2f5;
+    //padding-right: 70px !important;
+    .default-filter-item{
+      //height: 44px;
+      height: auto;
+      clear: both;
+      //overflow: hidden;
+    }
+    &-item,.ant-select{
+      //width: 100% !important;
+      margin-bottom: 10px;
+    }
+    .ant-calendar-picker{
+      width: auto !important;
+    }
+    .hide-form, .default-filter-item{
+      flex-wrap: wrap;
+      display: flex;
+      .search-from-btn{
+        flex: 0 0 calc(~'100% / 3 - 20px');
+        margin-right: 0;
+        margin-left: @search-item-separation-width !important;
+        display: flex;
+        .search-from-btn-content{
+          display: flex;
+          align-items: center;
+          height: 40px;
+          //margin-top: 4px;
+          .show-ondition{
+            margin-left: 0 !important;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+      .search-from-btn.search-from-no-margin-left{
+        margin-left: 0 !important;
+      }
+      .search-from-btn.search-item-separation{
+        margin-left: @search-item-separation-width !important;
+      }
+      .search-from-item{
+        flex: 0 0 calc(~'100% / 3 - 20px');
+        margin-right: 0;
+        .ant-col.ant-form-item-label{
+          width: 105px !important;
+          label::after{
+            margin: 0 16px 0 4px !important;
+          }
+        }
+        .ant-col.ant-form-item-control-wrapper {
+          width: calc(~'100% - 105px');
+          .ant-form-item-children {
+            & > .ant-input, & > .ant-select{
+              width: calc(~'100%') !important;
+            }
+          }
+          .daterange-custom{
+            width: 100% !important;
+          }
+        }
+      }
+      .search-from-item.search-item-separation{
+        //请勿合并为margin，margin-top、margin-bottom要继承
+        margin-left: @search-item-separation-width !important;
+        margin-right: @search-item-separation-width !important;
+      }
+    }
+    .hide-form{
+      margin-top:40px;
+      .check-box {
+        width: 100%;
+        margin-top: 10px;
+        .ant-checkbox{
+          background: #24325B;
+          border-color: #00DAFF;
+        }
+        .ant-checkbox-checked ~ span{
+          color: #24325B;
+        }
+        .ant-checkbox-wrapper{
+          position: relative;
+          span{
+            color:#fff;
+          }
+        }
+        .check-label{
+          display: inline-block;
+          margin-right: 6px;
+          color:#98ACD9;
+          width: 85px;
+          margin-left: 25px;
+        }
+        .check-item{
+          margin-bottom: 5px;
+          &:last-child{
+            margin-bottom: 0;
+          }
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          & > span{
+            display: inline-block;
+            flex: 0 0 91px;
+            margin: 0;
+            padding-right: 6px;
+          }
+          & > div{
+            flex: 0 0 calc(~'100% - 265px');
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            .check-inline{
+              position: relative;
+              display: inline-block;
+              margin-bottom: 15px;
+              padding-right: 20px;
+              flex: 0 0 200px;
+            }
+          }
+        } 
+        .down-icon-box{
+          position: relative;
+          i{
+            color:#fff;
+          }
+          .down-icon{
+            position: absolute;
+            top: 32px;
+            right: -23px;
+            width:0;
+            height:0;
+            border-width:0 8px 11px;
+            border-style:solid;
+            border-color:transparent transparent #4362BD;
+            span{
+              width:0;
+              height:0;
+              border-width:0 6px 9px;
+              border-style:solid;
+              border-color:transparent transparent #24325B;
+              position:absolute;
+              top: 2px;
+              left: -6px;
+            }
+          }
+        }
+        
+      }
+      .check-box .children-box{
+        display: flex;
+        margin:0px 0 0 105px;
+        background: #24325B;
+        border: 1px solid #4362BD;
+        .ant-checkbox-group-item{
+          margin-bottom: 14px;
+        }
+        .ant-checkbox-group{
+          padding:15px 11px 0 11px;
+        }
+        .ant-checkbox-wrapper{
+          &:nth-child(6n){
+            margin-right: 0;
+          }
+          margin-right: 90px;
+          min-width: 170px;
+        }
+        .show{
+          display: flex !important;
+        }
+        .check-label{
+          display: block;
+          margin:8px 0 0 11px;
+          width: 100%;
+          position: relative;
+          top: 10%;
+        }
+      }
+    }
+    .hide-form.flex{
+      display: flex;
+    }
+    .hide-form.none{
+      display: none;
+    }
+      .line{
+        border-bottom: 1px dashed #DEE4EE;
+        width: 100%;
+        margin: 15px 0 25px;
+      }
+      // p{
+      //   font-size: 14px;
+      //   color: #8B909A;
+      //   position: absolute;
+      //   margin-top: 10px;
+      //   top: 100px;
+      // }
+   }
+    .line2{
+      border-bottom: 1px dashed #DEE4EE;
+      width: 100%;
+      margin: 10px 0;
+    }
+}
+

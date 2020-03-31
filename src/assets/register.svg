@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1254px" height="387px" viewBox="0 0 1254 387" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>硬件登记流程</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#6DA5FF" offset="0%"></stop>
+            <stop stop-color="#3B6CFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="硬件登记流程" transform="translate(-444.000000, -392.000000)">
+            <g transform="translate(444.000000, 392.000000)">
+                <g id="分组-21" transform="translate(124.000000, 69.000000)">
+                    <path d="M4,0.5 C2.06700338,0.5 0.5,2.06700338 0.5,4 L0.5,60 C0.5,61.9329966 2.06700338,63.5 4,63.5 L124,63.5 C125.932997,63.5 127.5,61.9329966 127.5,60 L127.5,4 C127.5,2.06700338 125.932997,0.5 124,0.5 L4,0.5 Z" id="Rectangle-7-Copy-4" stroke="#3B6CFF" fill="#455385"></path>
+                    <text id="资产登记" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="36" y="40">资产登记</tspan>
+                    </text>
+                </g>
+                <g id="分组-21-copy-2" transform="translate(812.000000, 195.000000)">
+                    <path d="M4,0.5 C2.06700338,0.5 0.5,2.06700338 0.5,4 L0.5,60 C0.5,61.9329966 2.06700338,63.5 4,63.5 L124,63.5 C125.932997,63.5 127.5,61.9329966 127.5,60 L127.5,4 C127.5,2.06700338 125.932997,0.5 124,0.5 L4,0.5 Z" id="Rectangle-7-Copy-4" stroke="#3B6CFF" fill="#455385"></path>
+                    <text id="入网审批未通过" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="15" y="40">入网审批未通过</tspan>
+                    </text>
+                </g>
+                <g id="分组-21-copy" transform="translate(500.000000, 69.000000)">
+                    <path d="M32,0.5 C14.6030304,0.5 0.5,14.6030304 0.5,32 C0.5,49.3969696 14.6030304,63.5 32,63.5 C49.3969696,63.5 63.5,49.3969696 63.5,32 C63.5,14.6030304 49.3969696,0.5 32,0.5 Z" id="Rectangle-7-Copy-4" stroke="#3B6CFF" fill="#455385"></path>
+                    <text id="整改中" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="11" y="39">整改中</tspan>
+                    </text>
+                </g>
+                <g id="分组-10" transform="translate(312.000000, 67.000000)">
+                    <path d="M64,0.566177217 L1.06574535,34 L64,67.4338228 L126.934255,34 L64,0.566177217 Z" id="多边形-copy" stroke="#3B6CFF" fill="#455385"></path>
+                    <text id="是否同意登记" font-family="PingFangSC-Medium, PingFang SC" font-size="12" font-weight="400" line-spacing="12" fill="#FFFFFF">
+                        <tspan x="28" y="41">是否同意登记</tspan>
+                    </text>
+                </g>
+                <rect id="矩形" fill="#BFC6D2" x="375" y="7" width="2" height="60"></rect>
+                <rect id="矩形-copy-4" fill="#BFC6D2" x="1221" y="193" width="2" height="161"></rect>
+                <rect id="矩形-copy-6" fill="#BFC6D2" x="187" y="193" width="2" height="161"></rect>
+                <g id="分组-10-copy" transform="translate(812.000000, 67.000000)">
+                    <path d="M64,0.566177217 L1.06574535,34 L64,67.4338228 L126.934255,34 L64,0.566177217 Z" id="多边形-copy" stroke="#3B6CFF" fill="#455385"></path>
+                    <text id="是否审批通过" font-family="PingFangSC-Medium, PingFang SC" font-size="12" font-weight="400" line-spacing="12" fill="#FFFFFF">
+                        <tspan x="28" y="41">是否审批通过</tspan>
+                    </text>
+                </g>
+                <g id="分组-10-copy-2" transform="translate(812.000000, 319.000000)">
+                    <path d="M64,0.566177217 L1.06574535,34 L64,67.4338228 L126.934255,34 L64,0.566177217 Z" id="多边形-copy" stroke="#3B6CFF" fill="#455385"></path>
+                    <text id="是否审批通过" font-family="PingFangSC-Medium, PingFang SC" font-size="12" font-weight="400" line-spacing="12" fill="#FFFFFF">
+                        <tspan x="28" y="41">是否审批通过</tspan>
+                    </text>
+                </g>
+                <g id="分组-7-copy-2" transform="translate(624.000000, 69.000000)">
+                    <path d="M4,0 L124,0 C126.209139,-4.05812251e-16 128,1.790861 128,4 L128,60 C128,62.209139 126.209139,64 124,64 L4,64 C1.790861,64 2.705415e-16,62.209139 0,60 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle-7-Copy-19" fill="#1D45BD"></path>
+                    <path d="M4,0 L124,0 C126.209139,-4.05812251e-16 128,1.790861 128,4 L128,58 C128,60.209139 126.209139,62 124,62 L4,62 C1.790861,62 2.705415e-16,60.209139 0,58 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle-7-Copy-20" fill="url(#linearGradient-1)"></path>
+                    <text id="入网审批" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="36" y="25">入网审批</tspan>
+                    </text>
+                </g>
+                <g id="分组-7-copy-3" transform="translate(1002.000000, 69.000000)">
+                    <path d="M4,0 L124,0 C126.209139,-4.05812251e-16 128,1.790861 128,4 L128,60 C128,62.209139 126.209139,64 124,64 L4,64 C1.790861,64 2.705415e-16,62.209139 0,60 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle-7-Copy-19" fill="#1D45BD"></path>
+                    <path d="M4,0 L124,0 C126.209139,-4.05812251e-16 128,1.790861 128,4 L128,58 C128,60.209139 126.209139,62 124,62 L4,62 C1.790861,62 2.705415e-16,60.209139 0,58 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle-7-Copy-20" fill="url(#linearGradient-1)"></path>
+                    <text id="准入实施" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="36" y="25">准入实施</tspan>
+                    </text>
+                </g>
+                <path d="M119.5,100 L119.5,97 L124,101 L119.5,105 L119.5,102 L64,102 L64,100 L119.5,100 Z" id="合并形状" fill="#BFC6D2"></path>
+                <path d="M307.5,100 L307.5,97 L312,101 L307.5,105 L307.5,102 L252,102 L252,100 L307.5,100 Z" id="合并形状-copy-4" fill="#BFC6D2"></path>
+                <path d="M495.5,100 L495.5,97 L500,101 L495.5,105 L495.5,102 L440,102 L440,100 L495.5,100 Z" id="合并形状-copy-6" fill="#BFC6D2"></path>
+                <path d="M619.5,100 L619.5,97 L624,101 L619.5,105 L619.5,102 L564,102 L564,100 L619.5,100 Z" id="合并形状-copy-9" fill="#BFC6D2"></path>
+                <path d="M807.5,100 L807.5,97 L812,101 L807.5,105 L807.5,102 L752,102 L752,100 L807.5,100 Z" id="合并形状-copy-10" fill="#BFC6D2"></path>
+                <path d="M995.5,100 L995.5,97 L1000,101 L995.5,105 L995.5,102 L940,102 L940,100 L995.5,100 Z" id="合并形状-copy-11" fill="#BFC6D2"></path>
+                <path d="M901.5,288 L901.5,285 L906,289 L901.5,293 L901.5,290 L846,290 L846,288 L901.5,288 Z" id="合并形状-copy-12" fill="#BFC6D2" transform="translate(876.000000, 289.000000) rotate(90.000000) translate(-876.000000, -289.000000) "></path>
+                <path d="M901.5,164 L901.5,161 L906,165 L901.5,169 L901.5,166 L846,166 L846,164 L901.5,164 Z" id="合并形状-copy-13" fill="#BFC6D2" transform="translate(876.000000, 165.000000) rotate(90.000000) translate(-876.000000, -165.000000) "></path>
+                <polygon id="Line-Copy-6" fill="#BFC6D2" points="375 7 1223 7 1223 9 375 9"></polygon>
+                <polygon id="Line-Copy-8" fill="#BFC6D2" points="940 352 1223 352 1223 354 940 354"></polygon>
+                <polygon id="Line-Copy-9" fill="#BFC6D2" points="188 352 812 352 812 354 188 354"></polygon>
+                <path d="M1185.5,100 L1185.5,97 L1190,101 L1185.5,105 L1185.5,102 L1130,102 L1130,100 L1185.5,100 Z" id="合并形状-copy-5" fill="#BFC6D2"></path>
+                <path d="M1247.5,38 L1247.5,35 L1252,39 L1247.5,43 L1247.5,40 L1192,40 L1192,38 L1247.5,38 Z" id="合并形状-copy-8" fill="#BFC6D2" transform="translate(1222.000000, 39.000000) rotate(90.000000) translate(-1222.000000, -39.000000) "></path>
+                <path d="M1247.5,162 L1247.5,159 L1252,163 L1247.5,167 L1247.5,164 L1192,164 L1192,162 L1247.5,162 Z" id="合并形状-copy-14" fill="#BFC6D2" transform="translate(1222.000000, 163.000000) rotate(-90.000000) translate(-1222.000000, -163.000000) "></path>
+                <path d="M213.5,162 L213.5,159 L218,163 L213.5,167 L213.5,164 L158,164 L158,162 L213.5,162 Z" id="合并形状-copy-15" fill="#BFC6D2" transform="translate(188.000000, 163.000000) rotate(-90.000000) translate(-188.000000, -163.000000) "></path>
+                <g id="分组-8" transform="translate(462.000000, 93.000000)">
+                    <rect id="Rectangle-2-Copy-8" stroke="#05CC7F" fill="#252A3D" x="0.5" y="0.5" width="15" height="15"></rect>
+                    <polygon id="Y-Copy" fill="#05CC7F" points="4 4 5.572 4 8.044 7.924 10.516 4 12.088 4 8.692 9.148 8.692 12.568 7.396 12.568 7.396 9.148"></polygon>
+                </g>
+                <g id="分组-8-copy-2" transform="translate(492.000000, 345.000000)">
+                    <rect id="Rectangle-2-Copy-8" stroke="#05CC7F" fill="#252A3D" x="0.5" y="0.5" width="15" height="15"></rect>
+                    <polygon id="Y-Copy" fill="#05CC7F" points="4 4 5.572 4 8.044 7.924 10.516 4 12.088 4 8.692 9.148 8.692 12.568 7.396 12.568 7.396 9.148"></polygon>
+                </g>
+                <g id="分组-8-copy" transform="translate(962.000000, 93.000000)">
+                    <rect id="Rectangle-2-Copy-8" stroke="#05CC7F" fill="#252A3D" x="0.5" y="0.5" width="15" height="15"></rect>
+                    <polygon id="Y-Copy" fill="#05CC7F" points="4 4 5.572 4 8.044 7.924 10.516 4 12.088 4 8.692 9.148 8.692 12.568 7.396 12.568 7.396 9.148"></polygon>
+                </g>
+                <g id="分组-16" transform="translate(791.000000, 0.000000)">
+                    <rect id="Rectangle-2-Copy-5" stroke="#FFA025" fill="#252A3D" x="0.5" y="0.5" width="15" height="15"></rect>
+                    <polygon id="N" fill="#FFA025" points="4 4 5.32 4 9.7 10.372 9.748 10.372 9.748 4 11.056 4 11.056 12.568 9.784 12.568 5.356 6.124 5.308 6.124 5.308 12.568 4 12.568"></polygon>
+                </g>
+                <g id="分组-16-copy" transform="translate(1074.000000, 345.000000)">
+                    <rect id="Rectangle-2-Copy-5" stroke="#FFA025" fill="#252A3D" x="0.5" y="0.5" width="15" height="15"></rect>
+                    <polygon id="N" fill="#FFA025" points="4 4 5.32 4 9.7 10.372 9.748 10.372 9.748 4 11.056 4 11.056 12.568 9.784 12.568 5.356 6.124 5.308 6.124 5.308 12.568 4 12.568"></polygon>
+                </g>
+                <g id="分组-16-copy-2" transform="translate(868.000000, 157.000000)">
+                    <rect id="Rectangle-2-Copy-5" stroke="#FFA025" fill="#252A3D" x="0.5" y="0.5" width="15" height="15"></rect>
+                    <polygon id="N" fill="#FFA025" points="4 4 5.32 4 9.7 10.372 9.748 10.372 9.748 4 11.056 4 11.056 12.568 9.784 12.568 5.356 6.124 5.308 6.124 5.308 12.568 4 12.568"></polygon>
+                </g>
+                <g id="分组-22" transform="translate(0.000000, 69.000000)" fill="#3B6CFF">
+                    <circle id="Oval-6" fill-opacity="0.1" cx="32" cy="32" r="32"></circle>
+                    <circle id="Oval-6-Copy" cx="32" cy="32" r="16"></circle>
+                </g>
+                <g id="分组-6" transform="translate(1190.000000, 69.000000)" fill="#3B6CFF">
+                    <circle id="Oval-6-Copy-3" fill-opacity="0.1" cx="32" cy="32" r="32"></circle>
+                    <circle id="Oval-6-Copy-4" cx="32" cy="32" r="16"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

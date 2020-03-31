@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`资产信息管理 <AssetManage /> 快照 1`] = `
+"<div className=\\"main-table-content\\">
+  <Tabs activeKey=\\"1\\" onChange={[Function]} hideAdd={false} tabPosition=\\"top\\">
+    <TabPane tab=\\"资产信息列表\\" forceRender={true} placeholder={{...}}>
+      <withRouter(Form(Connect(Information)))>
+        [function children]
+      </withRouter(Form(Connect(Information)))>
+    </TabPane>
+    <TabPane tab=\\"未知资产\\" forceRender={true} placeholder={{...}}>
+      <withRouter(Unknown)>
+        [function children]
+      </withRouter(Unknown)>
+    </TabPane>
+  </Tabs>
+</div>"
+`;

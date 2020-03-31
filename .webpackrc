@@ -1,0 +1,23 @@
+{
+  "extraBabelPlugins": [
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+  ],
+  "extraBabelIncludes": [
+    "node_modules/to-fast-properties/index.js"
+  ],
+  "disableCSSModules": true,
+  "proxy": {
+    "/api/v1/ops/": {
+      "target": "http://10.240.50.117:8111",
+      "changeOrigin": true
+    },
+    "/api/v1": {
+      "target": "http://10.240.50.105",
+      "changeOrigin": true
+    },
+    "/api/v1/config": {
+      "target": "http://10.240.17.68:8103",
+      "changeOrigin": true
+    }
+  }
+}

@@ -1,0 +1,97 @@
+.sytem-chartss{
+  display:flex;
+  margin-top:20px;
+  min-height: 560px;
+  background: #fff;
+  margin-left: -25px;
+  border:1px solid #ddd;
+  .select-box{
+    width: 100%;
+    // border-right:1px solid #ddd;
+    height: 32px;
+    background: #DEE4EE;
+    border: 1px solid #DEE4EE; 
+    span{
+      padding:7px 50px;
+      height:32px;
+      border-right:.1px solid #ddd;
+      cursor: pointer;
+      line-height: 31px;
+      border-bottom: .1px solid #ddd;
+    }
+    .current-color{
+      background: #fff;
+    }
+  }
+  .charts-box{
+    flex: 1;
+    // padding:20px;
+    overflow: hidden;
+    .top-box{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      .ant-calendar-picker{
+        margin-right: 20px;
+      }
+      .title{
+        margin: 20px 30px;
+        height:22px;
+        font-size: 20px;
+        color:#000;
+      }
+    }
+  }
+  .data-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 10px;
+    .border{
+      background: #DEE4EE;
+      width: 1px;
+      margin: -40px 0 0 0px;
+      height: 60px;
+    }
+    div{
+      margin:0 0 20px 30px;
+      width:290px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      // text-align: center;
+      p{
+        font-size: 10px;
+        color:#333;
+      }
+    }
+    .disk-box{
+      display: flex;
+      flex-flow: wrap;
+      text-align: center;
+      span{
+        display: inline-block;
+        &:nth-child(1){
+          width: 47px;
+        }
+        &:nth-child(2){
+          flex: 0 0 calc(~'100% - 47px')
+        }
+      }
+      p{
+        text-align: left;
+      }
+    }
+  }
+}
+.system-monitor-overview{
+  tr.ant-table-expanded-row.ant-table-expanded-row-level-1{
+    td:first-child{
+      display: none;
+    }
+    .sytem-chartss{
+      margin-left: 4px;
+    }
+  }
+}

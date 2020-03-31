@@ -1,0 +1,32 @@
+.session-detail-modal{
+  .session-list{
+    padding: 30px;
+    .session-item{
+      margin-bottom: 8px;
+      p{
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .empty-placeholder{
+    background-image: url('~@/assets/noData.png');
+    background-repeat: no-repeat;
+    height: 240px;
+    background-position-x: calc(~'100% / 2');
+    background-position-y: calc(~'100% / 2');
+    border: 0;
+    &::before{
+      content: '暂无数据';
+      position: relative;
+      width: 100px;
+      height: 50px;
+      top: 240px;;
+      left: calc(~'100% / 2 - 32px');
+      display: block;
+      z-index: 99;
+      font-family: PingFangSC-Regular;
+      font-size: 16px;
+      color: #8B909A;
+    }
+  }
+}

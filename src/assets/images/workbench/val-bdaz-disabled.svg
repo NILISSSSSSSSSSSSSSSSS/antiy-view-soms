@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="96px" viewBox="0 0 100 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>补丁安装</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="48" height="40" rx="2"></rect>
+        <filter x="-7.3%" y="-6.2%" width="114.6%" height="117.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.15380388   0 0 0 0 0.20536817   0 0 0 0 0.329320791  0 0 0 0.0952502264 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#72C7FF" offset="0%"></stop>
+            <stop stop-color="#56A6FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="1.1版本" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="补丁工作台1920x1080-copy" transform="translate(-1240.000000, -677.000000)">
+            <g id="分组" transform="translate(800.000000, 495.000000)">
+                <g id="补丁安装" transform="translate(440.000000, 182.000000)">
+                    <rect id="矩形-copy-34" fill="#A7ACB7" x="0" y="0" width="100" height="96" rx="4"></rect>
+                    <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="22" y="81">补丁安装</tspan>
+                    </text>
+                    <g transform="translate(25.000000, 18.000000)">
+                        <g id="Group-2">
+                            <g id="Rectangle-4">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <rect id="Rectangle" fill="#DDE9FD" x="12" y="8" width="24" height="24" rx="12"></rect>
+                            <path d="M31.8282004,27.0062469 L27.832069,23.0079573 L31.5186031,19.3051078 C31.7763025,19.0472692 31.7512484,18.6229097 31.4684948,18.3919293 C29.7326026,16.9899316 27.4401511,16.6210791 25.4107677,17.2853717 L21.573909,14.2414432 C21.5953839,13.5556641 21.4128468,12.8663038 21.0262976,12.2700519 C20.8204959,11.9513347 20.3713114,11.9083616 20.1028745,12.175153 L16.1765367,16.0946585 C15.9080998,16.3632405 15.9510497,16.810877 16.2695949,17.0185804 C16.8673145,17.4071289 17.5598818,17.5915551 18.2470804,17.5700686 L21.2893658,21.4089996 C20.6236422,23.4484316 20.9976643,25.751074 22.4114322,27.4896943 C22.642288,27.7726006 23.0664184,27.7958777 23.3241179,27.5362485 L27.0106519,23.8333991 L31.0049937,27.8298981 C31.1195268,27.9444931 31.2680619,28 31.416597,28 C31.5651321,28 31.7154568,27.9427025 31.8282004,27.8298981 C32.0572665,27.6042893 32.0572665,27.2336462 31.8282004,27.0062469 Z" id="Shape" fill="#5A92FF" fill-rule="nonzero"></path>
+                            <rect id="Rectangle-5" fill="url(#linearGradient-3)" x="12" y="34" width="24" height="2" rx="1"></rect>
+                        </g>
+                        <path d="M39,22 L57,22 C58.1045695,22 59,22.8954305 59,24 L59,42 C59,43.1045695 58.1045695,44 57,44 L39,44 C37.8954305,44 37,43.1045695 37,42 L37,24 C37,22.8954305 37.8954305,22 39,22 Z" id="Rectangle-19-Copy-5" fill="#E0EBFE"></path>
+                        <g id="anzhuangbao" transform="translate(40.000000, 25.000000)">
+                            <path d="M0,3.19999999 L16,3.19999999 L16,16 L0,16 L0,3.19999999 Z M1.06666667,4.26666666 L1.06666667,14.9333333 L14.9333333,14.9333333 L14.9333333,4.26666666 L1.06666667,4.26666666 Z M2.66666666,1.06666667 L1.28000001,3.19999999 L0,3.19999999 L2.13333334,0 L13.8666667,0 L16,3.19999999 L14.72,3.19999999 L13.3333333,1.06666667 L2.66666666,1.06666667 Z M1.28000001,3.19999999 L0,3.19999999 L2.13333334,0 L13.8666667,0 L16,3.19999999 L14.72,3.19999999 L13.3333333,1.06666667 L2.66666666,1.06666667 L1.28000001,3.19999999 Z" id="形状" fill="#588CFF" fill-rule="nonzero"></path>
+                            <polygon id="路径" fill="#588CFF" points="4 8.69565217 4.61538461 8 8.04395604 11.942029 11.3846154 8 12 8.69565217 8.04395604 13.3333333"></polygon>
+                            <path d="M8,4.66666667 L8,11.3333333" id="直线-2" stroke="#588CFF" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

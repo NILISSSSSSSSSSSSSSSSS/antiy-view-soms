@@ -1,0 +1,187 @@
+.login-content{
+  min-width: 1366px;
+  background: url('~@/assets/images/login_bg.png') no-repeat;
+  background-size: 100% 100%;
+  .header{
+    height: 100px;
+    padding: 0 40px;
+    background-color: #f7f9fc;
+    line-height: 100px;
+    .header-icon{
+        img{
+           width: 134px; 
+        }
+    }
+  }
+}
+
+.ant-layout-content{
+  display: flex;
+  align-items: stretch;
+  .content-swipper{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    .ant-carousel{
+      .slick-slide {
+        text-align: center;
+        overflow: hidden;
+        img{
+          width: 830px;
+          // width: 90%;
+          display: inline-block;
+          margin: 0 auto;
+        }
+        h2{
+          font-size: 24px;
+          margin: 30px 50px;
+        }
+      }
+      .slick-dots li{
+        background: rgba(255, 255, 255, 0.2);
+        width: 50px;
+        button{
+          width: 100%;
+        }
+        &.slick-active{
+          background: #fff;
+        }
+      }
+    }
+    .ant-carousel .slick-dots-bottom{
+      bottom: 40px;
+    }
+  }
+  .content-login{
+    // width: 40%;
+    // display: inline-block;
+    // padding: 40px 0;
+    // background: linear-gradient(to bottom,#6F86D6,#47C6EF);
+    display: flex;
+    align-items: center;
+    .login-icon{
+      margin-bottom: 14px;
+      text-align: center;
+    }
+    h1{
+      margin-bottom: 40px;
+      font-size: 18px;
+      color: #fff;
+      text-align: center;
+    }
+    .form-wrap{
+      margin: 0 auto;
+      width: 390px;
+      padding: 50px 40px;
+      background: rgba(0,0,0,0.2) url("../../assets/images/login_form.png") 100% 100% no-repeat;
+      background-size: cover;
+      box-shadow: 0 6px 20px 2px rgba(0,0,0,0.20);
+      border-radius: 4px;
+      .login-form{
+        background: none !important;
+        .ant-form-item-control{
+          line-height: 36px;
+        }
+      }
+      .tips{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 18px;
+        background:rgba(255,160,37,0.10);
+        border: 1px solid rgba(255, 218, 56, 0.5);
+        border-radius:2px;
+        color: #fff;
+        font-size: 12px;
+        padding: 0 10px;
+        img{
+          width: 12px;
+          margin-right: 5px;
+        }
+      }
+      .input-passwords{
+        .ant-form-explain{
+          position: relative;
+          top: 8px;
+          margin-bottom: 12px;
+        }
+      }
+      .input-password2{
+        position: relative;
+        top: -36px;
+      }
+      .input-password{
+        opacity: 0;
+        position: relative;
+        width: 0px;
+        height: 0px;
+        z-index: 0;
+      }
+      .input-item{
+        height: 36px;
+        border-radius: 2px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        .ant-input{
+          // border: none !important;
+          background: #192859;
+          border: 1px solid #506099;
+          &:focus{
+            box-shadow: none;
+          }
+          &::placeholder{
+            color: #98ACD9;
+          }
+        }
+      }
+      .input-code-item{
+        .ant-form-item-children{
+          display: flex;
+          justify-content: space-between;
+          .ant-input{
+            height: 36px;
+            border-radius: 2px;
+            width: 170px;
+            &::placeholder{
+              color: #98ACD9;
+            }
+          }
+          .code-img{
+            width: 120px;
+            height: 36px;
+            border-radius: 2px;
+            overflow: hidden;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+      #login-btn{
+        width: 100%;
+        height: 36px;
+        background:#1890ff;
+        border-radius:2px;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+.footer{
+  text-align: center;
+  padding: 0 50px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #f7f9fc;
+  p{
+    margin-bottom: 0;
+  }
+}
+.loginCss{
+  height: 100vh;
+}

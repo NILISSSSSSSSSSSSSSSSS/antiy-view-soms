@@ -1,0 +1,32 @@
+.pigeonhole-tab{
+    .ant-radio-group{
+        border-radius: 0;
+        margin-bottom: 20px;
+        .ant-radio-button-wrapper{
+            line-height: 26px;
+            height: 26px;
+            border-radius: 2px;
+            border: none !important;
+            background: transparent;
+            color: #98ACD9
+        }
+        .ant-radio-button-wrapper-checked{
+            border: none !important;
+            color: #fff !important;
+            background: #05CC7F;
+            box-shadow: none;
+            margin: 0;
+        }
+        .ant-radio-button-wrapper:not(:first-child)::before {
+            background-color: transparent !important;
+            width: 0 ;
+          }
+          .ant-radio-button-wrapper-checked::before{
+            background-color: transparent !important;
+            width: 0;
+          }
+        .ant-radio-button-wrapper-checked:hover{
+            background: #05CC7F
+        }
+    }
+}

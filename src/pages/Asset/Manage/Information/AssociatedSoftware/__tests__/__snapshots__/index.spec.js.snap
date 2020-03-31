@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AssociatedSoftware /> shoulder render a AssociatedSoftware 1`] = `
+"<Connect(Form(commonModal)) title=\\"关联软件\\" type=\\"search\\" visible={false} width={1200} oktext=\\"保存\\" onConfirm={[Function]} onClose={[Function: onClose]}>
+  <div className=\\"table-wrap\\">
+    <Form(Search2) defaultFields={{...}} onSubmit={[Function]} onReset={[Function]} />
+    <Table rowKey=\\"softwareId\\" columns={{...}} rowSelection={{...}} dataSource={{...}} pagination={{...}} useFixedHeader={false} className=\\"\\" size=\\"default\\" loading={false} bordered={false} indentSize={20} locale={{...}} showHeader={true} sortDirections={{...}} childrenColumnName=\\"children\\" />
+    <Form className=\\"filter-form new-flex-layout\\" layout=\\"inline\\" onSubmit={[Function: onSubmit]} colon={true} hideRequiredMark={false}>
+      <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"下一步骤\\" hasFeedback={false}>
+        <span value={[undefined]} id=\\"666\\" onChange={[Function: bound bound onCollect]} data-__meta={{...}} data-__field={{...}}>
+          基准配置
+        </span>
+      </FormItem>
+      <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"下一步执行人\\" hasFeedback={false}>
+        <Select showSearch={true} allowClear={true} getPopupContainer={[Function: getPopupContainer]} placeholder=\\"请选择\\" optionFilterProp=\\"children\\" transitionName=\\"slide-up\\" choiceTransitionName=\\"zoom\\" value={[undefined]} id=\\"baselineConfigUserId\\" onChange={[Function: bound bound onCollectValidate]} data-__meta={{...}} data-__field={{...}}>
+          <Option value=\\"all\\">
+            全部
+          </Option>
+          <Option value=\\"1\\">
+            duuliy
+          </Option>
+        </Select>
+      </FormItem>
+      <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"备注\\" hasFeedback={false}>
+        <Input autoComplete=\\"off\\" className=\\"filter-form-item\\" placeholder=\\"请输入\\" type=\\"text\\" disabled={false} value={[undefined]} id=\\"memo\\" onChange={[Function: bound bound onCollect]} data-__meta={{...}} data-__field={{...}} />
+      </FormItem>
+    </Form>
+  </div>
+</Connect(Form(commonModal))>"
+`;

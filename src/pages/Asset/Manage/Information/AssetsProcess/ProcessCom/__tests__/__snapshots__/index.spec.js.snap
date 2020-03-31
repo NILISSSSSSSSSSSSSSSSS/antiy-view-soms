@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProBasic /> shoulder render a ProBasic 1`] = `
+"<section className=\\"basic-info\\">
+  <p>
+    <span className=\\"label\\">
+      666
+      ：
+    </span>
+    <span>
+      666
+    </span>
+  </p>
+  <p>
+    <span className=\\"label\\">
+      附件：
+    </span>
+    <a onClick={[Function: onClick]}>
+      666
+    </a>
+  </p>
+</section>"
+`;

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="96px" viewBox="0 0 100 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>安全整改</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="110.847655%" y1="20.4080351%" x2="44.1373919%" y2="72.7854763%" id="linearGradient-1">
+            <stop stop-color="#05CC7F" offset="0%"></stop>
+            <stop stop-color="#37B765" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="1.1版本" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="资产工作台1920x1080-copy" transform="translate(-891.000000, -718.000000)">
+            <g id="安全整改" transform="translate(891.000000, 718.000000)">
+                <rect id="矩形-copy-42" fill="#A7ACB7" x="0" y="0" width="100" height="96" rx="4"></rect>
+                <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="22" y="81">安全整改</tspan>
+                </text>
+                <g id="入网检查" transform="translate(16.000000, 4.000000)">
+                    <g id="Group-9" transform="translate(33.941125, 33.941125) rotate(-45.000000) translate(-33.941125, -33.941125) translate(9.941125, 9.941125)">
+                        <ellipse id="Oval-7" stroke="#4877FC" stroke-width="2.46279739" fill="#FFFFFF" cx="23.939956" cy="24.0040663" rx="22.9067194" ry="22.826475"></ellipse>
+                        <ellipse id="Oval-8" stroke="#5F8AFF" stroke-width="2.46279739" cx="24.0754987" cy="24.1391342" rx="5.69279418" ry="5.67285178"></ellipse>
+                        <ellipse id="Oval-8-Copy" stroke="#E0EBFE" stroke-width="2.46279739" cx="24.0754987" cy="24.1391342" rx="14.909699" ry="14.8574689"></ellipse>
+                        <path d="M19.2172281,10.0882658 C13.3681021,12.096142 9.16579969,17.6286071 9.16579969,24.1391342 M36.1781135,32.8183245 C37.944527,30.3766878 38.9851978,27.3790161 38.9851978,24.1391342 C38.9851978,21.9473643 38.5089369,19.8664415 37.6539161,17.993525" id="Oval-8-Copy-2" stroke="#05CC7F" stroke-width="2.46279739"></path>
+                        <ellipse id="Oval-9-Copy-3" fill="url(#linearGradient-1)" opacity="0.200000003" cx="38.9851978" cy="25.4898132" rx="4.06628155" ry="4.05203698"></ellipse>
+                        <ellipse id="Oval-9" fill="#05CC7F" cx="38.849655" cy="25.3547453" rx="2.03314078" ry="2.02601849"></ellipse>
+                        <ellipse id="Oval-9-Copy-2" fill="url(#linearGradient-1)" opacity="0.200000003" cx="11.7411113" cy="15.3597207" rx="3.93073884" ry="3.91696909"></ellipse>
+                        <ellipse id="Oval-9-Copy" fill="#05CC7F" cx="11.7411113" cy="15.3597207" rx="2.03314078" ry="2.02601849"></ellipse>
+                    </g>
+                    <path d="M46,35 L64,35 C65.1045695,35 66,35.8954305 66,37 L66,55 C66,56.1045695 65.1045695,57 64,57 L46,57 C44.8954305,57 44,56.1045695 44,55 L44,37 C44,35.8954305 44.8954305,35 46,35 Z" id="Rectangle-19-Copy-5" fill="#E0EBFE"></path>
+                    <path d="M55.5178571,48 L50.4821429,48 C50.215625,48 50,48.2236111 50,48.5 C50,48.7763889 50.215625,49 50.4821429,49 L55.5178571,49 C55.784375,49 56,48.7763889 56,48.5 C56,48.2236111 55.784375,48 55.5178571,48 Z M58,43 L58,53 L48,53 L48,43 L58,43 Z M57.875,42 L48.125,42 C47.503125,42 47,42.503125 47,43.125 L47,52.875 C47,53.496875 47.503125,54 48.125,54 L57.875,54 C58.496875,54 59,53.496875 59,52.875 L59,43.125 C59,42.503125 58.496875,42 57.875,42 Z M61.8690561,38 L52.5654719,38 C52.2528916,38 52,38.2515625 52,38.5625 C52,38.8734375 52.2528916,39.125 52.5654719,39.125 L61.8690561,39.125 L61.8690561,48.4375 C61.8690561,48.7484375 62.1219477,49 62.4345281,49 C62.7471084,49 63,48.7484375 63,48.4375 L63,39.125 C63,38.503125 62.4942168,38 61.8690561,38 Z M59.875,40 L49.5625,40 C49.2515625,40 49,40.2515625 49,40.5625 C49,40.8734375 49.2515625,41.125 49.5625,41.125 L59.875,41.125 L59.875,51.4375 C59.875,51.7484375 60.1265625,52 60.4375,52 C60.7484375,52 61,51.7484375 61,51.4375 L61,41.125 C61,40.503125 60.496875,40 59.875,40 Z" id="Shape" fill="#3B6CFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

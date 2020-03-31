@@ -1,0 +1,26 @@
+@import '../../../index.less';
+.status-color{
+  display: flex;
+  align-items: center;
+  .ant-badge-status-text{
+    color: #fff;
+  }
+  &-currency{
+    //display: inline-block;
+    //height: 14px;
+    //width: 14px;
+    //border-radius: 50%;
+    //margin-right: 5px;
+    //flex:0 0 auto
+  }
+  &-normal{
+    background-color: @status-normal-color;
+  }
+  &-error{
+    background-color: @status-error-color;
+  }
+  .ant-badge.ant-badge-status.ant-badge-not-a-wrapper{
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,49 @@
+
+.StatusMonitor{
+    .table-btns {
+        margin-bottom: 10px;
+      
+        .change-bar {
+          .colorTop {
+            color: #3B6CFF;
+      
+            &::before {
+              content: '';
+              width: 110px;
+              border-top: 4px solid #3B6CFF;
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+          }
+      
+          li {
+            color: #98ACD9;
+            float:left;
+            border: 1px solid #506099;
+            width: 110px;
+            height: 38px;
+            text-align: center;
+            line-height: 38px;
+            cursor: pointer;
+            // background-color: rgba(255, 255, 255, 1);
+            // color: rgba(0, 0, 0, .6);
+            position: relative;
+      
+            &:nth-of-type(2) {
+              border-left: none;
+            }
+      
+            &:nth-of-type(3) {
+              border-left: none;
+            }
+      
+            &:nth-of-type(4) {
+              border-left: none;
+            }
+          }
+        }
+      }
+}
+
+  

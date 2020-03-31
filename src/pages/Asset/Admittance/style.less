@@ -1,0 +1,33 @@
+@PrefixCls: AssetAdmittance;
+
+.@{PrefixCls} {
+    .rows {
+        padding: 25px 22px;
+        font-size: 14px;
+        width: 100%;
+        background-color: white;
+
+        .title {
+            display: inline-block;
+            margin-right: 20px;
+            font-weight: 700;
+        }
+
+        .ant-select.ant-select-enabled {
+            min-width: 400px;
+            margin-right: 20px;
+        }
+    }
+
+    thead div {
+        font-weight: 600;
+    }
+    .alert-identifying {
+        color: #009DD9;
+        padding: 0 10px;
+
+        &~span {
+            padding: 0 10px;
+        }
+    }
+}

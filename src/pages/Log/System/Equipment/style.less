@@ -1,0 +1,33 @@
+// 系统日志table特殊需求，由于接口原因，禁止翻页的页码和当前页码相差过大，所以需隐藏直接跳转到第一页、直接跳转到最后一页、jump-prev、jump-next
+// 隐藏直接跳转到第一页无法通过css控制，所以是在js中实现的。
+.system-log{
+  // 隐藏jump-prev和jump-next
+  .ant-pagination-jump-prev, .ant-pagination-jump-next{
+    display: none !important;
+  }
+  // 隐藏直接跳转到最后一页
+  .ant-pagination-jump-next + .ant-pagination-item{
+    display: none !important;
+  }
+  .menu-add-table{
+    display: flex;
+    .ant-menu{
+     
+      .ant-menu-submenu{
+        width: 200px; 
+      }
+      background: #171E35;
+      .ant-menu-submenu-title{
+        background: #171E35;
+        margin: 0;
+      }
+      .ant-menu-submenu-title{
+        color: #fff
+      }
+    .ant-menu-item{
+      color: #fff
+    }
+    }
+
+  }
+}

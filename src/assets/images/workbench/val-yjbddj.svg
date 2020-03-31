@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="96px" viewBox="0 0 100 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>应急补丁登记</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#6DA5FF" offset="0%"></stop>
+            <stop stop-color="#3B6CFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="48" height="40" rx="2"></rect>
+        <filter x="-7.3%" y="-6.2%" width="114.6%" height="117.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.15380388   0 0 0 0 0.20536817   0 0 0 0 0.329320791  0 0 0 0.0952502264 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFC586" offset="0%"></stop>
+            <stop stop-color="#FF4F4F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="1.1版本" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="补丁工作台1920x1080-copy" transform="translate(-800.000000, -495.000000)">
+            <g id="分组" transform="translate(800.000000, 495.000000)">
+                <g id="应急补丁登记">
+                    <rect id="矩形-copy-32" fill="url(#linearGradient-1)" x="0" y="0" width="100" height="96" rx="4"></rect>
+                    <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="8" y="81">应急补丁登记</tspan>
+                    </text>
+                    <g id="补丁登记" transform="translate(22.000000, 18.000000)">
+                        <g id="Group-2">
+                            <g id="Rectangle-4">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            </g>
+                            <rect id="Rectangle" fill="#F7E08D" x="12" y="8" width="24" height="24" rx="12"></rect>
+                            <path d="M31.8282004,27.0062469 L27.832069,23.0079573 L31.5186031,19.3051078 C31.7763025,19.0472692 31.7512484,18.6229097 31.4684948,18.3919293 C29.7326026,16.9899316 27.4401511,16.6210791 25.4107677,17.2853717 L21.573909,14.2414432 C21.5953839,13.5556641 21.4128468,12.8663038 21.0262976,12.2700519 C20.8204959,11.9513347 20.3713114,11.9083616 20.1028745,12.175153 L16.1765367,16.0946585 C15.9080998,16.3632405 15.9510497,16.810877 16.2695949,17.0185804 C16.8673145,17.4071289 17.5598818,17.5915551 18.2470804,17.5700686 L21.2893658,21.4089996 C20.6236422,23.4484316 20.9976643,25.751074 22.4114322,27.4896943 C22.642288,27.7726006 23.0664184,27.7958777 23.3241179,27.5362485 L27.0106519,23.8333991 L31.0049937,27.8298981 C31.1195268,27.9444931 31.2680619,28 31.416597,28 C31.5651321,28 31.7154568,27.9427025 31.8282004,27.8298981 C32.0572665,27.6042893 32.0572665,27.2336462 31.8282004,27.0062469 Z" id="Shape" fill="#5A92FF" fill-rule="nonzero"></path>
+                            <rect id="Rectangle-5" fill="url(#linearGradient-4)" x="12" y="34" width="24" height="2" rx="1"></rect>
+                        </g>
+                        <path d="M39,22 L57,22 C58.1045695,22 59,22.8954305 59,24 L59,42 C59,43.1045695 58.1045695,44 57,44 L39,44 C37.8954305,44 37,43.1045695 37,42 L37,24 C37,22.8954305 37.8954305,22 39,22 Z" id="Rectangle-19-Copy-5" fill="#E0EBFE"></path>
+                        <path d="M55.3575459,39.7137168 L40.642874,39.7137168 C40.2875075,39.7137168 40,40.0012143 40,40.3565684 C40,40.7119225 40.2875075,40.99942 40.642874,40.99942 L55.3575459,40.99942 C55.7129124,40.99942 56.0004199,40.7119225 56.0004199,40.3565684 C56.0004199,40.0012143 55.7129124,39.7137168 55.3575459,39.7137168 Z M44.1429659,37.6065922 L48.3484334,35.8262504 C48.4162923,35.7976793 48.4770082,35.7566082 48.530581,35.7048229 L55.6236243,28.6120271 C56.1254232,28.1102457 56.1289947,27.2923957 55.6271958,26.7906143 L54.2110872,25.3745551 C53.7092884,24.8727737 52.8914097,24.8763451 52.3896109,25.3781265 L45.2965676,32.4709223 C45.2447805,32.5227076 45.203708,32.585207 45.1751358,32.6530636 L43.3929462,36.8565987 C43.2929436,37.0923109 43.3625882,37.3298089 43.5143779,37.483379 C43.6661676,37.6369491 43.9054596,37.7065913 44.1429659,37.6065922 Z M53.2985633,26.2870472 L53.3021348,26.2834758 L54.7164576,27.6977493 L54.7128861,27.7013207 L53.6057142,28.808454 L52.1913914,27.3941805 L53.2985633,26.2870472 Z M46.3037369,33.2816296 L51.282439,28.3031012 L52.6967618,29.7173747 L47.7180597,34.6959031 L45.2644239,35.7351798 L46.3037369,33.2816296 Z" id="Shape" fill="#3B6CFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

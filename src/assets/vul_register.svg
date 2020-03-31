@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="832px" height="265px" viewBox="0 0 832 265" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>漏洞登记流程</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#6DA5FF" offset="0%"></stop>
+            <stop stop-color="#3B6CFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="漏洞修复流程" transform="translate(-685.000000, -439.000000)">
+            <g id="漏洞登记流程" transform="translate(685.000000, 439.000000)">
+                <g id="分组-13" transform="translate(352.000000, 112.000000)">
+                    <path d="M4,0 L124,0 C126.209139,-4.05812251e-16 128,1.790861 128,4 L128,60 C128,62.209139 126.209139,64 124,64 L4,64 C1.790861,64 2.705415e-16,62.209139 0,60 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle-7-Copy-11" fill="#1D45BD"></path>
+                    <path d="M4,0 L124,0 C126.209139,-4.05812251e-16 128,1.790861 128,4 L128,58 C128,60.209139 126.209139,62 124,62 L4,62 C1.790861,62 2.705415e-16,60.209139 0,58 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle-7-Copy-12" fill="url(#linearGradient-1)"></path>
+                    <text id="漏洞修复" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="36" y="25">漏洞修复</tspan>
+                    </text>
+                </g>
+                <g id="分组-10" transform="translate(560.000000, 110.000000)">
+                    <path d="M64,0.566177217 L1.06574535,34 L64,67.4338228 L126.934255,34 L64,0.566177217 Z" id="多边形-copy" stroke="#3B6CFF" fill="#455385"></path>
+                    <text id="是否同意修复建议" font-family="PingFangSC-Medium, PingFang SC" font-size="12" font-weight="400" line-spacing="12" fill="#FFFFFF">
+                        <tspan x="16" y="39">是否同意修复建议</tspan>
+                    </text>
+                </g>
+                <path d="M554,143 L554,140 L560,144 L554,148 L554,145 L480,145 L480,143 L554,143 Z" id="合并形状" fill="#BFC6D2"></path>
+                <path d="M762,143 L762,140 L768,144 L762,148 L762,145 L688,145 L688,143 L762,143 Z" id="合并形状-copy-5" fill="#BFC6D2"></path>
+                <path d="M346,145 L272,145 L272,143 L346,143 L346,140 L352,144 L346,148 L346,145 Z" id="合并形状" fill="#BFC6D2"></path>
+                <path d="M138,145 L64,145 L64,143 L138,143 L138,140 L144,144 L138,148 L138,145 Z" id="合并形状-copy-4" fill="#BFC6D2"></path>
+                <g id="分组-15" transform="translate(0.000000, 112.000000)" fill="#3B6CFF">
+                    <circle id="Oval-6" fill-opacity="0.1" cx="32" cy="32" r="32"></circle>
+                    <circle id="Oval-6-Copy" cx="32" cy="32" r="16"></circle>
+                </g>
+                <g id="分组-4" transform="translate(768.000000, 112.000000)" fill="#3B6CFF">
+                    <circle id="Oval-6-Copy-3" fill-opacity="0.1" cx="32" cy="32" r="32"></circle>
+                    <circle id="Oval-6-Copy-4" cx="32" cy="32" r="16"></circle>
+                </g>
+                <path d="M415,32 L417,32 L417,106 L415,106 L415,32 Z M272,32 L415,32 L415,34 L272,34 L272,32 Z M416,112 L412,106 L420,106 L416,112 Z" id="合并形状" fill="#BFC6D2"></path>
+                <path d="M207,176 L209,176 L209,252 L207,252 L207,176 Z M209,176 L623,176 L623,178 L209,178 L209,176 Z M623,176 L625,176 L625,256 L623,256 L623,176 Z M208,258 L204,252 L212,252 L208,258 Z" id="合并形状-copy-3" fill="#BFC6D2" transform="translate(414.500000, 217.000000) scale(1, -1) translate(-414.500000, -217.000000) "></path>
+                <g id="分组-16" transform="translate(408.000000, 249.000000)">
+                    <rect id="Rectangle-2-Copy-5" stroke="#FFA025" fill="#FFFFFF" x="0.5" y="0.5" width="15" height="15"></rect>
+                    <polygon id="N" fill="#FFA025" points="4 4 5.32 4 9.7 10.372 9.748 10.372 9.748 4 11.056 4 11.056 12.568 9.784 12.568 5.356 6.124 5.308 6.124 5.308 12.568 4 12.568"></polygon>
+                </g>
+                <g id="分组-8" transform="translate(720.000000, 136.000000)">
+                    <rect id="Rectangle-2-Copy-8" stroke="#05CC7F" fill="#FFFFFF" x="0.5" y="0.5" width="15" height="15"></rect>
+                    <polygon id="Y-Copy" fill="#05CC7F" points="4 4 5.572 4 8.044 7.924 10.516 4 12.088 4 8.692 9.148 8.692 12.568 7.396 12.568 7.396 9.148"></polygon>
+                </g>
+                <g id="分组-14" transform="translate(144.000000, 112.000000)">
+                    <path d="M4,0.5 C2.06700338,0.5 0.5,2.06700338 0.5,4 L0.5,60 C0.5,61.9329966 2.06700338,63.5 4,63.5 L124,63.5 C125.932997,63.5 127.5,61.9329966 127.5,60 L127.5,4 C127.5,2.06700338 125.932997,0.5 124,0.5 L4,0.5 Z" id="Rectangle-7-Copy-4" stroke="#3B6CFF" fill="#455385"></path>
+                    <text id="漏洞处置" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="36" y="38">漏洞处置</tspan>
+                    </text>
+                </g>
+                <g id="分组-14-copy" transform="translate(144.000000, 0.000000)">
+                    <path d="M4,0.5 C2.06700338,0.5 0.5,2.06700338 0.5,4 L0.5,60 C0.5,61.9329966 2.06700338,63.5 4,63.5 L124,63.5 C125.932997,63.5 127.5,61.9329966 127.5,60 L127.5,4 C127.5,2.06700338 125.932997,0.5 124,0.5 L4,0.5 Z" id="Rectangle-7-Copy-4" stroke="#3B6CFF" fill="#455385"></path>
+                    <text id="突发漏洞处置" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="22" y="38">突发漏洞处置</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

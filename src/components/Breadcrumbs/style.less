@@ -1,0 +1,27 @@
+@import "~@/them/them.less";
+@import "~@/assets/less/vars.less";
+@border: 1px solid #ddd;
+@white: #fff;
+@currentURLColor: #3469FF;
+.breadcrumb {
+  //border-bottom: @border;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  //line-height: 20px;
+  //padding: 20px 0;
+  height: @breadcrumbs-height;
+  color:#98ACD9;
+  > span:last-child{
+    color:#98ACD9;
+  }
+  .ant-breadcrumb-separator{
+    color: #98ACD9;
+  }
+  a{
+    color: @font-blue-color;
+  }
+}
+.current_url{
+  //color: @currentURLColor;
+}

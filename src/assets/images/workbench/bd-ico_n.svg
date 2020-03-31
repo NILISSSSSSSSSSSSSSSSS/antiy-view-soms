@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="80px" viewBox="0 0 84 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>工作台4_n</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="11.3464463%" x2="50%" y2="93.9682254%" id="linearGradient-1">
+            <stop stop-color="#C0D0FF" offset="0%"></stop>
+            <stop stop-color="#9AB5FF" offset="45.5758343%"></stop>
+            <stop stop-color="#97B2FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="52.0318289%" y1="7.26845619%" x2="48.0877107%" y2="91.842961%" id="linearGradient-2">
+            <stop stop-color="#A4BBFF" offset="0%"></stop>
+            <stop stop-color="#CEDBFF" offset="21.9700169%"></stop>
+            <stop stop-color="#C9D7FF" offset="75.818153%"></stop>
+            <stop stop-color="#AEC2FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="1.1版本" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="资产工作台1920x1080" transform="translate(-1736.000000, -180.000000)">
+            <g id="切换" transform="translate(300.000000, 170.000000)">
+                <g id="分组-2" transform="translate(1436.000000, 10.000000)">
+                    <g id="icon4-copy-2" transform="translate(5.000000, 3.000000)">
+                        <path d="M24,6.6265971 C26.5735056,2.2088657 31.0667633,2.15248783e-15 37.479773,0 C43.8927827,0 48.399525,2.2088657 51,6.6265971 L51,68.2486119 C47.8614517,72.7495373 43.3547094,75 37.479773,75 C31.6048366,75 27.1115789,72.7495373 24,68.2486119 L24,6.6265971 Z" id="矩形" fill="url(#linearGradient-1)"></path>
+                        <path d="M24,6.6265971 C26.5735056,2.2088657 31.0667633,2.15248783e-15 37.479773,0 C43.8927827,0 48.399525,2.2088657 51,6.6265971 L51,68.2486119 C47.8614517,72.7495373 43.3547094,75 37.479773,75 C31.6048366,75 27.1115789,72.7495373 24,68.2486119 L24,6.6265971 Z" id="矩形" fill="url(#linearGradient-2)" transform="translate(37.500000, 37.500000) rotate(-270.000000) translate(-37.500000, -37.500000) "></path>
+                        <g id="分组-4" transform="translate(28.000000, 29.000000)" fill="#BACFFF">
+                            <circle id="椭圆形" cx="1.5" cy="1.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-4" cx="1.5" cy="8.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-7" cx="1.5" cy="15.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-2" cx="9.5" cy="1.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-5" cx="10" cy="8.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-8" cx="10" cy="15.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-3" cx="17.5" cy="1.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-6" cx="17.5" cy="8.5" r="1.5"></circle>
+                            <circle id="椭圆形-copy-9" cx="17.5" cy="15.5" r="1.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

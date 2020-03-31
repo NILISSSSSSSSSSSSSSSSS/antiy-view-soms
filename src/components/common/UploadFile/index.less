@@ -1,0 +1,54 @@
+@import "~@/assets/less/vars.less";
+.upload-file-custom{
+  .upload-file-box{
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+  }
+  .ant-upload-list{
+    display: none !important;
+  }
+  .up-load-custom-btn{
+    button{
+      cursor: pointer;
+      height: 36px;
+      margin-left: 4px;
+      padding: 0 6px;
+      font-size: 14px;
+      //color: #3B6CFF;
+      line-height: 14px;
+      outline: none;
+      //border: none !important;
+    }
+    .btn-disabled{
+      color: #FFFFFF;
+      cursor: default;
+      background: @disabled-bg !important;
+      border-color: @disabled-border-color !important;
+      & > i{
+        border: 0;
+      }
+    }
+  }
+  .ant-form-item-control-wrapper{
+    width: auto !important;
+  }
+  .tips{
+    font-size: 12px;
+    color: @label-color;
+    //white-space: nowrap;
+  }
+  .cancle-file-btn{
+    //opacity: 0.1;
+    //display: inline-block;
+    background: rgba(59, 108, 255, 0.1);
+    border-radius: 2px;
+    font-size: 14px;
+    //color: #3B6CFF;
+    line-height: 14px;
+    width: 88px;
+    height: 24px;
+    border: 0;
+    padding: 0 6px;
+  }
+}

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Implementation /> shoulder render a Implementation 1`] = `
+"<div className=\\"Information\\">
+  <Form(Connect(AssetsSearch)) handleSubmit={[Function]} />
+  <div className=\\"table-wrap\\">
+    <TableBtns leftBtns={{...}} rightBtns={{...}} />
+    <Table scroll={{...}} rowKey=\\"stringId\\" className=\\"asset-table \\" rowClassName=\\"\\" onChange={[Function]} columns={{...}} rowSelection={{...}} dataSource={{...}} pagination={{...}} useFixedHeader={false} size=\\"default\\" loading={false} bordered={false} indentSize={20} locale={{...}} showHeader={true} sortDirections={{...}} childrenColumnName=\\"children\\" />
+  </div>
+  <Form(Connect(Implementation)) onRef={[Function]} getAssetList={[Function]} />
+  <Form(Connect(Verification)) onRef={[Function]} getAssetList={[Function]} />
+  <Form(Connect(NetworkAccess)) onRef={[Function]} getAssetList={[Function]} />
+  <Form(Connect(Retirement)) onRef={[Function]} getAssetList={[Function]} />
+  <Form(Connect(Examination)) onRef={[Function]} getAssetList={[Function]} />
+  <Form(Connect(Rectification)) onRef={[Function]} getAssetList={[Function]} />
+  <Form(Connect(Decommission)) onRef={[Function]} getAssetList={[Function]} />
+  <Connect(AssetModal) data={{...}} />
+  <Connect(AssetModal) data={{...}} />
+</div>"
+`;

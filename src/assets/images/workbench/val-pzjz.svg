@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="96px" viewBox="0 0 100 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>配置基准</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#76AEF6" offset="0%"></stop>
+            <stop stop-color="#4176E9" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="20 0 40 11.5 40 34.5 20 46 1.83186799e-14 34.5 5.55111512e-15 11.5"></polygon>
+        <linearGradient x1="24.2489686%" y1="21.3266033%" x2="79.1360142%" y2="83.8720371%" id="linearGradient-4">
+            <stop stop-color="#75A8FF" offset="0%"></stop>
+            <stop stop-color="#4D82FF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-5" points="18.4305476 0 34.39187 9.10311618 34.39187 27.3093485 18.4305476 36.4124647 2.46922517 27.3093485 2.46922517 9.10311618"></polygon>
+    </defs>
+    <g id="1.1版本" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="补丁工作台1920x1080-copy" transform="translate(-1240.000000, -495.000000)">
+            <g id="分组" transform="translate(800.000000, 495.000000)">
+                <g id="配置基准" transform="translate(440.000000, 0.000000)">
+                    <rect id="矩形-copy-37" stroke="url(#linearGradient-1)" stroke-width="3" x="1.5" y="1.5" width="97" height="93" rx="4"></rect>
+                    <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" fill="#4176E9">
+                        <tspan x="22" y="81">配置基准</tspan>
+                    </text>
+                    <g transform="translate(30.000000, 15.000000)" id="Group-24">
+                        <g>
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <path stroke="#4176E9" stroke-width="2" d="M20,-1.1535272 L41,10.9214728 L41,35.0785272 L20,47.1535272 L-1,35.0785272 L-1,10.9214728 L20,-1.1535272 Z"></path>
+                            <g id="noun_1078245_cc" mask="url(#mask-3)">
+                                <g transform="translate(2.000000, 5.000000)">
+                                    <mask id="mask-6" fill="white">
+                                        <use xlink:href="#path-5"></use>
+                                    </mask>
+                                    <use id="Mask" stroke="none" fill="url(#linearGradient-4)" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                    <g id="noun_1078245_cc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-6)">
+                                        <g transform="translate(7.741361, 8.591705)" fill="#4176E9" stroke="#FFFFFF">
+                                            <rect id="矩形" x="0.5" y="1.87037037" width="20.9259259" height="1.74074074"></rect>
+                                            <rect id="矩形-copy-47" x="0.5" y="8.72222222" width="20.9259259" height="1.74074074"></rect>
+                                            <rect id="矩形-copy-48" x="0.5" y="15.5740741" width="20.9259259" height="1.74074074"></rect>
+                                            <rect id="矩形-copy-49" x="15.5740741" y="14.2037037" width="1.74074074" height="4.48148148"></rect>
+                                            <rect id="矩形-copy-50" x="10.0925926" y="7.35185185" width="1.74074074" height="4.48148148"></rect>
+                                            <rect id="矩形-copy-51" x="5.98148148" y="0.5" width="1.74074074" height="4.48148148"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="96px" viewBox="0 0 100 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>配置基准</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="50 18 70 29.5 70 52.5 50 64 30 52.5 30 29.5"></polygon>
+        <polygon id="path-3" points="50 18 70 29.5 70 52.5 50 64 30 52.5 30 29.5"></polygon>
+        <linearGradient x1="24.2489686%" y1="21.3266033%" x2="79.1360142%" y2="83.8720371%" id="linearGradient-5">
+            <stop stop-color="#75A8FF" offset="0%"></stop>
+            <stop stop-color="#4D82FF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-6" points="50 23 65.5884573 31.8904624 65.5884573 49.6713873 50 58.5618498 34.4115427 49.6713873 34.4115427 31.8904624"></polygon>
+    </defs>
+    <g id="1.1版本" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="配置工作台1920x1080-copy" transform="translate(-926.000000, -494.000000)">
+            <g id="分组" transform="translate(737.000000, 494.000000)">
+                <g id="配置基准" transform="translate(189.000000, 0.000000)">
+                    <g id="分组-6">
+                        <rect id="矩形-copy-41" fill="#A7ACB7" x="0" y="0" width="100" height="96" rx="4"></rect>
+                        <text id="配置基准" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="22" y="81">配置基准</tspan>
+                        </text>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <path stroke="#4176E9" stroke-width="2" d="M50,16.8464728 L71,28.9214728 L71,53.0785272 L50,65.1535272 L29,53.0785272 L29,28.9214728 L50,16.8464728 Z"></path>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask-Copy" fill="#FFFFFF" xlink:href="#path-3"></use>
+                        <mask id="mask-7" fill="white">
+                            <use xlink:href="#path-6"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+                        <rect id="矩形" stroke="#FFFFFF" fill="#4176E9" mask="url(#mask-7)" x="40.241361" y="33.4620755" width="20.9259259" height="1.74074074"></rect>
+                        <rect id="矩形-copy-47" stroke="#FFFFFF" fill="#4176E9" mask="url(#mask-7)" x="40.241361" y="40.3139274" width="20.9259259" height="1.74074074"></rect>
+                        <rect id="矩形-copy-48" stroke="#FFFFFF" fill="#4176E9" mask="url(#mask-7)" x="40.241361" y="47.1657792" width="20.9259259" height="1.74074074"></rect>
+                        <rect id="矩形-copy-49" stroke="#FFFFFF" fill="#4176E9" mask="url(#mask-7)" x="55.3154351" y="45.7954089" width="1.74074074" height="4.48148148"></rect>
+                        <rect id="矩形-copy-50" stroke="#FFFFFF" fill="#4176E9" mask="url(#mask-7)" x="49.8339536" y="38.943557" width="1.74074074" height="4.48148148"></rect>
+                        <rect id="矩形-copy-51" stroke="#FFFFFF" fill="#4176E9" mask="url(#mask-7)" x="45.7228425" y="32.0917052" width="1.74074074" height="4.48148148"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,52 @@
+@PrefixCls: AssetInformation;
+.@{PrefixCls} {
+  // width:calc(~'50% - 10px');
+  width: 49.4%;
+  background: #151B30;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border: 1px solid #202F61;
+  border-radius: 2px;
+  #asset-information-main{
+    position: relative;
+    top:-20px;
+  }
+
+  .content-box {
+    position: relative;
+    .ant-radio-button-wrapper-checked{
+      color:#3B6CFF;
+      border-color: #3B6CFF;
+    }
+    .ant-radio-button-wrapper{
+      color: rgba(0, 0, 0, 0.65);
+      &:hover,&:focus{
+        color: rgba(0, 0, 0, 0.65);
+      }
+    }
+    .bugTotal {
+      border-radius: 100%;
+      width: 100px;
+      height:100px;
+      text-align: center;
+      line-height: 100px;
+      font-weight: 400;
+      position: absolute;
+      font-size: 28px;
+      color: #fff;
+      top: 129px;
+      left: 27%;        
+      z-index: 99;
+  }
+  @media (max-width: 1366px) {
+      .bugTotal {
+          left: 24%;        
+      }
+  }
+}
+}
+
+.ant-pagination-total-text{
+  margin-left:40px
+}
+

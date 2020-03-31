@@ -1,0 +1,22 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/coverage
+
+# production
+/dist
+
+# misc
+.DS_Store
+npm-debug.log*
+
+.project
+.idea/
+.idea/**
+/antiy-view-soms.iml
+*/__snapshots__/*
+/__snapshots__
+src/pages/BaseSetting/Manage/Setting/index.js
+src/components/Asset/Error/index.js
+src/pages/Asset/Manage/Information/AssetsSearch/__tests__/__snapshots__/index.spec.js.snap

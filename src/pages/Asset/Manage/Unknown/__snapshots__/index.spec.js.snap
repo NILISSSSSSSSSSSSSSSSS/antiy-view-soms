@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`未知资产列表 <Unknown /> 快照 1`] = `
+"<div className=\\"unknown-containar\\">
+  <div className=\\"search-bar\\">
+    <Form(Search2) defaultFields={{...}} fieldList={{...}} onSubmit={[Function]} setDefaultExpandedStatus={false} />
+  </div>
+  <div className=\\"table-wrap\\">
+    <TableBtns leftBtns={{...}} rightBtns={{...}} />
+    <CustomTable rowSelection={{...}} columns={{...}} page={{...}} dataSource={{...}} actions={{...}} onChange={[Function]} />
+  </div>
+</div>"
+`;

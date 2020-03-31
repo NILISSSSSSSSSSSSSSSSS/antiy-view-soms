@@ -1,0 +1,30 @@
+@PrefixCls: AssetStatus;
+.@{PrefixCls} {
+  background: #151B30;
+  width: 49.4%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border: 1px solid #202F61;
+  border-radius: 2px;
+  #asset-status-main{
+    position: relative;
+    top:-20px;
+  }
+  .content-box{
+    .ant-radio-button-wrapper-checked{
+      color:#3B6CFF;
+      border-color: #3B6CFF;
+    }
+    .ant-radio-button-wrapper{
+      color: rgba(0, 0, 0, 0.65);
+      &:hover,&:focus{
+        color: rgba(0, 0, 0, 0.65);
+      }
+    }
+  }
+}
+
+
+.ant-pagination-total-text{
+  margin-left:40px
+}

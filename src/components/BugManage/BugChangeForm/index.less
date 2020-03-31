@@ -1,0 +1,98 @@
+@import "~@/assets/less/cover.less";
+.inline-form-item{
+  display: flex;
+  flex-direction: row;
+  .custom-label{
+    width: 100px;
+    text-align: right;
+    line-height: 42px;
+    &::after{
+      content: ':';
+      position: relative;
+      top: -0.5px;
+      margin: 0 8px 0 2px;
+    }
+  }
+  .required-label::before {
+    display: inline-block;
+    margin-right: 4px;
+    color: #f5222d;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: '*';
+  }
+  .ant-input-number{
+    width: 100%;
+  }
+  .add-form-box{
+    display: flex;
+    width: 33.33%;
+  }
+  & .add-form-box > div:nth-child(2){
+    width:100px;
+  }
+  & .add-form-box > div:nth-child(3){
+    width: calc(~'92% - 230px');
+  }
+}
+.number-form-item{
+  &>div:nth-child(4) {
+    margin-top: 20px;
+  }
+}
+.add-form-item{
+  flex-wrap: wrap !important;
+  .ant-row{
+    margin-bottom: 0;
+  }
+}
+
+.cvss-form-item{
+  padding:20px 0;
+  margin:20px 0;
+  border-top:1px dashed #506099 ;
+  border-bottom: 1px dashed #506099;
+}
+.edit-form-content{
+  .bug-edit-form{
+    padding-top:30px;
+    margin-bottom: 30px;
+    border:1px solid @border-color;
+    .form-wrap{
+      margin-top: 20px;
+      padding:0 40px;
+    }
+  }
+}
+.form-btn{
+  margin: 6px 0 0 6px;
+  width: 25px;
+  z-index: 10;
+  img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    &:first-child{
+      margin-right: 5px;
+    }
+  }
+  .disabled-add{
+    cursor: not-allowed;
+  }
+}
+.bug-edit-form{
+  .form-layout{
+    .ant-form-item-control-wrapper{
+      width: calc(~'92% - 100px');    
+    }
+  }
+  .ant-form-item-label{
+    width: 100px;
+  }
+  .form-block{
+    .ant-form-item-control-wrapper{
+      width: calc(~'100% - 100px');
+    }
+  }
+}

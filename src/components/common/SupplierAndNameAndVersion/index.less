@@ -1,0 +1,30 @@
+.SupplierAndNameAndVersion-container{
+  display: flex;
+  .SupplierAndNameAndVersion-item{
+    display: flex;
+    flex: 1 1 calc(~'100% / 3 - 10');
+    &:nth-child(2){
+      margin: 0 8px;
+    }
+    .SupplierAndNameAndVersion-item-label{
+      display: inline-block;
+      flex: 0 0 40px;
+    }
+    .SupplierAndNameAndVersion-item-value{
+      flex: 1 1 calc(~'100% - 40px');
+      overflow: hidden;
+    }
+  }
+  .ant-select{
+    width: auto !important;
+    margin-bottom: 0 !important;
+    &>div{
+      /* margin-top: 3px; */
+      //width: calc(~'100% - 22px');
+      position: relative;
+      transform: translateY(-50%);
+      top: 50%;
+    }
+
+  }
+}

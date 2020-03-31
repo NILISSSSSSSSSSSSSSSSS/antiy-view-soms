@@ -1,0 +1,134 @@
+.patchReport-page{
+  background: #151B30;
+  padding: 0px 39px 40px 40px;
+  .ant-tabs-top-bar{
+    padding: 0;
+    border-bottom: 1px solid #202F61 !important
+  }
+  .charts-container{
+    flex: 2;
+    .top-box{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+      .charts-box{       
+        flex: 1 1;
+        background: #151B30; 
+        border:1px solid #202F61;
+      }
+    }
+    .top-box-two{
+      position: relative;
+      display: flex;
+      width: 100%;
+      .charts-box{       
+        flex: 1 1 100%;
+        background: #151B30; 
+        border:1px solid #202F61;
+        border-top: none;
+      }
+    }
+  } 
+  .handle{
+    float: right;
+    margin: 10px;
+  }
+  .Patchtext{
+    font-size:14px;
+    color:#98ACD9;
+    text-align: right;
+    margin-top: 5px;
+    position: relative;
+    bottom: 40px
+  }
+  .downloadCss{
+    font-size:14px;
+    color:#1890ff;
+    cursor: pointer;
+  }
+  .Vultable {
+    .ant-table-thead>tr{
+      height: 40px;
+    }
+    .ant-table-small {
+      border: none;
+      .ant-table-content {
+        border-right: none;
+        .ant-table-body{
+        padding: 0;
+        margin: 0
+    }
+      } 
+    } 
+    .ant-table-thead > tr {
+      th{
+        background: none !important;
+        border: 1px solid rgba(255,255,255,0.20) !important;
+      }
+      .first-title{
+        background-color: #23305E !important
+     }
+     .next-title{
+      background-color: #1E2747 !important
+     }
+    }
+    .ant-table-tbody > .ant-table-row >td{
+      background: #151B30;
+      border: 1px solid rgba(255,255,255,0.20) !important
+    }
+  }
+  .table-btn{
+    padding: 18px 0 6px 0 !important;
+    border-bottom: none !important;
+      .export-btn{
+        a{
+          font-size: 14px;
+          color: #3B6CFF;
+          img{
+            width: 20px;
+            margin-right: 6px;
+            margin-bottom: 2px;
+          }
+        }
+    }
+  }
+  .first-title{
+    font-weight: bold
+  }
+  .next-title{
+    background: #151B30;
+    color: #98ACD9;
+    text-align: center;
+    height: 40px;
+    padding-bottom: 0;
+    padding-top: 0
+  }
+  .ant-table-content tr td:first-child {
+    padding-left: 0 !important;
+    text-align: center !important;
+    overflow: visible !important;
+  }
+  .patch-total{
+    position: absolute;
+    top: 140px;
+    left:50%;
+    margin-left:-55px;
+    height: 60px;
+    width: 110px;
+    line-height: 60px;
+    font-weight: 600;
+    font-size: 28px;
+    color: #98ACD9;
+    z-index: 99;
+    text-align: center;
+    border-radius: 100%;
+  }
+  .ant-radio-button-wrapper-checked > span{
+    color: #fff !important;
+  }
+  .ant-radio-button-wrapper{
+    background: #151B30;
+  }
+}

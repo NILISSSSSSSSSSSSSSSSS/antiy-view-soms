@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Implementation /> shoulder render a Implementation 1`] = `
+"<Connect(Form(commonModal)) title=\\"模板实施\\" type=\\"search\\" visible={true} width={680} oktext=\\"确定\\" onConfirm={[Function]} onClose={[Function: onClose]}>
+  <div className=\\"AssetsProcess\\">
+    <div className=\\"process-wrap\\">
+      <div className=\\"modal-content\\">
+        <section className=\\"operate-info\\">
+          <h3>
+            线下实施模板
+          </h3>
+          <p>
+            如果没有实施模版，请先下载资产列表、资产配置模版、配置基准模版，在线下载资产实施模版内容。
+          </p>
+          <span className=\\"download\\">
+            <img src=\\"test-file-stub\\" className=\\"download-icon\\" alt=\\"\\" />
+            <a onClick={[Function]}>
+              下载模板
+            </a>
+          </span>
+          <span className=\\"operate\\">
+            <Upload name=\\"file\\" accept=\\".xml\\" action=\\"/api/v1/config/check/uploadCheckResult\\" headers={{...}} multiple={false} showUploadList={false} onChange={[Function: onChange]} data={{...}} beforeUpload={[Function: beforeUpload]} disabled={false} type=\\"select\\" listType=\\"text\\" className=\\"\\" supportServerRender={true}>
+              <span>
+                上传配置加固结果
+              </span>
+            </Upload>
+          </span>
+        </section>
+        <section>
+          <h3>
+            填写实施结果
+          </h3>
+          <Form layout=\\"horizontal\\" colon={true} hideRequiredMark={false} onSubmit={[Function: onSubmit]}>
+            <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"实施结果\\" hasFeedback={false}>
+              <RadioGroup onChange={[Function: bound bound onCollectValidate]} disabled={false} buttonStyle=\\"outline\\" value={1} id=\\"agree\\" data-__meta={{...}} data-__field={{...}}>
+                <Radio value={1} type=\\"radio\\">
+                  通过
+                </Radio>
+                <Radio value={0} type=\\"radio\\">
+                  拒绝
+                </Radio>
+              </RadioGroup>
+            </FormItem>
+            <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"备注\\" hasFeedback={false}>
+              <TextArea rows={6} maxLength={300} placeholder=\\"填写退役实施结果，或拒绝退役的原因\\" style={{...}} value={[undefined]} id=\\"note\\" onChange={[Function: bound bound onCollectValidate]} data-__meta={{...}} data-__field={{...}} />
+            </FormItem>
+            <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"上传附件\\" hasFeedback={false}>
+              <Upload name=\\"fileList\\" action=\\"/api/v1/asset/file/upload\\" beforeUpload={[Function: beforeUpload]} accept=\\".rar,.zip,.7z,.doc,.docx,.jpg,.pdf,.png,.txt,.xlsx,.xls\\" onChange={[Function: bound bound onCollect]} fileList=\\"\\" data={{...}} headers={{...}} type=\\"select\\" multiple={false} showUploadList={true} listType=\\"text\\" className=\\"\\" disabled={false} supportServerRender={true} value={[undefined]} id=\\"file\\" data-__meta={{...}} data-__field={{...}}>
+                <div className=\\"work-order-add-upload\\">
+                  <Icon type=\\"plus\\" />
+                    上传附件  
+                </div>
+              </Upload>
+              <div className=\\"format\\">
+                <div>
+                  <p>
+                    支持上传大小：0-10M
+                  </p>
+                  <p>
+                    支持扩展名：.rar .zip .7z .doc .docx .jpg .pdf .png .txt .xlsx .xls 
+                  </p>
+                </div>
+              </div>
+            </FormItem>
+            <FormItem labelCol={{...}} wrapperCol={{...}} label=\\"结果验证执行人\\" hasFeedback={false}>
+              <Select showSearch={true} allowClear={true} getPopupContainer={[Function: getPopupContainer]} placeholder=\\"请选择\\" optionFilterProp=\\"children\\" transitionName=\\"slide-up\\" choiceTransitionName=\\"zoom\\" value={[undefined]} id=\\"operator\\" onChange={[Function: bound bound onCollectValidate]} data-__meta={{...}} data-__field={{...}}>
+                <Option value=\\"all\\">
+                  全部
+                </Option>
+                <Option value={666}>
+                  666
+                </Option>
+              </Select>
+            </FormItem>
+          </Form>
+        </section>
+      </div>
+    </div>
+  </div>
+</Connect(Form(commonModal))>"
+`;

@@ -1,0 +1,42 @@
+.safe-overview{
+  .warning{
+    .warning-content{
+      margin:0 20px;
+      height: 370px;
+      border:1px solid #ddd;
+      .warning-title{
+        display: flex;
+        justify-content: flex-start;
+        padding-left:10px;
+        height: 48px;
+        border-bottom:1px solid #ddd;
+        >div{
+          display: flex;
+          flex:1;
+          align-items: center;
+          color: #333;
+          overflow: hidden;
+        }
+      }
+      .warning-list{
+        height: 320px;
+        overflow-y: auto;
+        >div{
+          display: flex;
+          justify-content: flex-start;
+          padding-left:10px;
+          height:40px;
+          line-height: 40px;
+          span{
+            flex:1;
+            padding-right: 10px;
+            overflow: hidden;
+            white-space:nowrap; 
+            overflow:hidden; 
+            text-overflow:ellipsis;
+          }
+        }
+      }
+    }
+  }
+}

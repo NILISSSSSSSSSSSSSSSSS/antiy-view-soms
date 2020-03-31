@@ -1,0 +1,186 @@
+.operate-modal{
+  .steps-wrap{
+    padding: 30px 40px;
+    .ant-steps-item-icon{
+      width: 24px;
+      height: 24px;
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .ant-steps-item-title{
+      line-height: 24px;
+      &::after{
+        top: 12px;
+      }
+    }
+    & div.ant-steps-item-title{
+      font-size: 14px;
+      color: #8E909A !important;
+    }
+    .ant-steps-item-process .ant-steps-item-icon {
+      background: #306CFF ;
+      border-color: #306CFF ;
+    }
+    .ant-steps-item-finish .ant-steps-item-icon {
+      background-color: #fff;
+      border: 1px solid #306CFF ;
+      path{
+        color: #306CFF;
+      }
+    }
+    .ant-steps-item-wait .ant-steps-item-icon{
+      border: 1px solid #BFC6D2;
+      background: #ffffff;
+    }
+    .ant-steps-item-icon, .ant-steps-item-content {
+      vertical-align: middle;
+    }
+  }
+  .modal-content{
+    padding: 0 40px;
+    padding-bottom: 70px;
+    .basic-info{
+      background-color: #1E284A;
+      padding: 10px;
+      color: #979FAD;
+      margin-bottom: 30px;
+      p{
+        margin-bottom: 10px;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+      a{
+        color: #3B6CFF;
+        padding-right: 10px;
+      }
+    }
+    .right-part{
+      display: inline-block;
+      padding: 20px;
+    }
+    .operate-info{
+      padding: 0 10px;
+      .title{
+        font-size: 16px;
+        font-weight: bold;
+        color:#979FAD;
+      }
+      .operate-content{
+        .tips{
+          color: #8E909A;
+          margin-bottom: 5px;
+        }
+        .result-info{
+          color: #8E909A;
+          .item-icon{
+            width: 15px;
+            margin-right: 10px;
+            margin-top: -4px;
+          }
+          .info{
+            color: #ff0073;
+            padding-right: 30px;
+          }
+        }
+        .operate{
+          cursor: pointer;
+          padding: 4px 10px;
+          display: inline-block;
+          background: #DFE7FF;
+          border-radius: 2px;
+          color: #3B6CFF;
+          position: relative;
+          margin-right: 10px;
+          .ant-upload{
+            color: #3B6CFF;
+          }
+          a{
+            color: #3B6CFF;
+          }
+        }
+        .operate-bar{
+          .download{
+            padding-right: 20px;
+            .download-icon{
+              width: 20px;
+            }
+            a{
+              vertical-align: middle;
+              padding-left: 5px;
+            }
+          }
+          .in-analysis{
+            position: absolute;
+            z-index: 10;
+            left: 0;
+            background: #DFE7FF;
+            padding: 4px 10px;
+            width: 118px;
+            top: 0;
+          }
+        }
+        .operate-btn-wrap{
+          margin-top: 10px;
+          button{
+            margin-right: 20px;
+          }
+          .operate-btn{
+            cursor: pointer;
+            padding: 4px 10px;
+            display: inline-block;
+            background: #DFE7FF;
+            border-radius: 2px;
+            color: #3B6CFF;
+            border: none;
+          }
+        }
+      }
+      .ant-table-wrapper{
+        width: 1196px;
+        margin-left: -48px;
+        .ant-table-thead > tr > th{
+          border-bottom: none !important;
+        }
+      }
+    }
+    .check-result-wrap{
+      margin-top: 30px;
+      padding: 0 10px;
+      .check-result{
+        width: 100%;
+        .ant-form-item{
+          margin-bottom: 8px;
+        }
+        .ant-upload{
+          width: 100%;
+          .work-order-add-upload{
+            border: 1px solid #3B6CFF;
+            border-radius: 2px;
+            color: #3B6CFF;
+            width: 100%;
+            height: 22px;
+          }
+        }
+      }
+      .format{
+        margin-top: 5px;
+        p{
+          margin-bottom: 0;
+          line-height: 21px;
+          color: #A7ACB7;
+          font-size: 12px;
+        }
+      }
+      h3{
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+    .detail-attachment-item{
+      border: none;
+      background: none;
+      width: 100%;
+    }
+  }
+}

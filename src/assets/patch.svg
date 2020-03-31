@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="832px" height="155px" viewBox="0 0 832 155" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>补丁登记流程</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#6DA5FF" offset="0%"></stop>
+            <stop stop-color="#3B6CFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="补丁安装流程" transform="translate(-685.000000, -494.000000)">
+            <g id="补丁登记流程" transform="translate(685.000000, 494.000000)">
+                <path d="M346,33 L346,30 L352,34 L346,38 L346,35 L272,35 L272,33 L346,33 Z" id="合并形状" fill="#BFC6D2"></path>
+                <path d="M138,33 L138,30 L144,34 L138,38 L138,35 L64,35 L64,33 L138,33 Z" id="合并形状-copy" fill="#BFC6D2"></path>
+                <polygon id="Line-Copy-16" fill="#BFC6D2" points="207 146 625 146 625 148 207 148"></polygon>
+                <path d="M554,35 L480,35 L480,33 L554,33 L554,30 L560,34 L554,38 L554,35 Z" id="合并形状" fill="#BFC6D2"></path>
+                <path d="M762,35 L688,35 L688,33 L762,33 L762,30 L768,34 L762,38 L762,35 Z" id="合并形状-copy-2" fill="#BFC6D2"></path>
+                <path d="M209,72 L209,146 L207,146 L207,72 L204,72 L208,66 L212,72 L209,72 Z" id="合并形状" fill="#BFC6D2"></path>
+                <polygon id="合并形状-copy-3" fill="#BFC6D2" points="623 66 625 66 625 146 623 146"></polygon>
+                <g id="分组-5" transform="translate(352.000000, 2.000000)">
+                    <path d="M4,0 L124,0 C126.209139,-4.05812251e-16 128,1.790861 128,4 L128,60 C128,62.209139 126.209139,64 124,64 L4,64 C1.790861,64 2.705415e-16,62.209139 0,60 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle-7-Copy-11" fill="#1D45BD"></path>
+                    <path d="M4,0 L124,0 C126.209139,-4.05812251e-16 128,1.790861 128,4 L128,58 C128,60.209139 126.209139,62 124,62 L4,62 C1.790861,62 2.705415e-16,60.209139 0,58 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle-7-Copy-12" fill="url(#linearGradient-1)"></path>
+                    <text id="补丁安装" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="36" y="25">补丁安装</tspan>
+                    </text>
+                </g>
+                <path d="M624,0.566177217 L561.065745,34 L624,67.4338228 L686.934255,34 L624,0.566177217 Z" id="多边形" stroke="#3B6CFF" fill="#455385"></path>
+                <text id="是否同意安装建议" font-family="PingFangSC-Medium, PingFang SC" font-size="12" font-weight="400" line-spacing="12" fill="#FFFFFF">
+                    <tspan x="576" y="39">是否同意安装建议</tspan>
+                </text>
+                <g id="分组-4" transform="translate(0.000000, 2.000000)" fill="#3B6CFF">
+                    <circle id="Oval-6" fill-opacity="0.1" cx="32" cy="32" r="32"></circle>
+                    <circle id="Oval-6-Copy" cx="32" cy="32" r="16"></circle>
+                </g>
+                <g id="分组-14" transform="translate(144.000000, 2.000000)">
+                    <path d="M4,0.5 C2.06700338,0.5 0.5,2.06700338 0.5,4 L0.5,60 C0.5,61.9329966 2.06700338,63.5 4,63.5 L124,63.5 C125.932997,63.5 127.5,61.9329966 127.5,60 L127.5,4 C127.5,2.06700338 125.932997,0.5 124,0.5 L4,0.5 Z" id="Rectangle-7-Copy-4" stroke="#3B6CFF" fill="#455385"></path>
+                    <text id="补丁处置" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="36" y="38">补丁处置</tspan>
+                    </text>
+                </g>
+                <g id="分组-3" transform="translate(768.000000, 2.000000)" fill="#3B6CFF">
+                    <circle id="Oval-6-Copy-3" opacity="0.100506074" cx="32" cy="32" r="32"></circle>
+                    <circle id="Oval-6-Copy-4" cx="32" cy="32" r="16"></circle>
+                </g>
+                <g id="分组-2" transform="translate(411.000000, 139.000000)">
+                    <rect id="Rectangle-2-Copy-5" stroke="#FFA025" fill="#FFFFFF" x="0.5" y="0.5" width="15" height="15"></rect>
+                    <polygon id="N-Copy-4" fill="#FFA025" points="4 4 5.32 4 9.7 10.372 9.748 10.372 9.748 4 11.056 4 11.056 12.568 9.784 12.568 5.356 6.124 5.308 6.124 5.308 12.568 4 12.568"></polygon>
+                </g>
+                <g id="分组" transform="translate(720.000000, 26.000000)">
+                    <rect id="Rectangle-2-Copy-7" stroke="#05CC7F" fill="#FFFFFF" x="0.5" y="0.5" width="15" height="15"></rect>
+                    <polygon id="Y" fill="#05CC7F" points="4 4 5.572 4 8.044 7.924 10.516 4 12.088 4 8.692 9.148 8.692 12.568 7.396 12.568 7.396 9.148"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

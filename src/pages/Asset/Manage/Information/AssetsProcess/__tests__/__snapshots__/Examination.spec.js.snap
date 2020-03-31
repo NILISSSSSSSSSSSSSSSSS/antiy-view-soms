@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Examination /> shoulder render a Examination 1`] = `
+"<Connect(Form(commonModal)) title=\\"安全检查\\" type=\\"search\\" visible={false} width={680} oktext=\\"确定\\" isOk={false} onConfirm={[Function]} onClose={[Function: onClose]}>
+  <div className=\\"AssetsProcess\\">
+    <div className=\\"process-wrap\\">
+      <div className=\\"modal-content\\">
+        <section className=\\"operate-info\\">
+          <h3>
+            在线检查
+          </h3>
+          <p>
+            系统对资产进行自动安全检查，如果正处于检查中，请等待。待检查完毕后可以点击查看检查结果。
+          </p>
+          <div className=\\"operate-content\\">
+            <div className=\\"result-info\\">
+              <img src=\\"test-file-stub\\" className=\\"item-icon\\" alt=\\"\\" />
+              <span>
+                漏洞检查结果：
+              </span>
+              <span className=\\"info\\">
+                漏洞检查中
+              </span>
+            </div>
+            <div className=\\"result-info\\">
+              <img src=\\"test-file-stub\\" className=\\"item-icon\\" alt=\\"\\" />
+              <span>
+                配置检查结果：
+              </span>
+              <span className=\\"info\\">
+                待核查
+              </span>
+              <span className=\\"operate\\">
+                <a onClick={[Function: onClick]}>
+                  查看配置核查结果
+                </a>
+              </span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</Connect(Form(commonModal))>"
+`;

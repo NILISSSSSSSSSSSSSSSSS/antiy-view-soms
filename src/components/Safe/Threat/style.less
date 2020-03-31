@@ -1,0 +1,26 @@
+@import "~@/assets/less/vars.less";
+@fontColor: red;
+.threat{
+  padding: 0 20px;
+  background-color: @bg-color-content;
+  color: #FFFFFF;
+  border: 1px solid #202F61;
+  border-radius: 2px;
+  table{
+    font-size: 12px;
+    tbody tr{
+      cursor: pointer
+    }
+  }
+  .safe-overview-title{
+    padding: 0 !important;
+  }
+  .ip-adress{
+    color: @fontColor;
+  }
+  .threat-table-wrap{
+    height: 300px;
+    overflow-y: auto;
+  }
+}
+

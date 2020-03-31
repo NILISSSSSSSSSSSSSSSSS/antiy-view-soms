@@ -1,0 +1,30 @@
+{
+  "presets": [
+  [
+    "@babel/preset-env",
+    {
+      "targets": {
+        "node": "current"
+      }
+    }
+  ],
+  ["@babel/preset-react"]
+],
+"plugins": [
+  ["@babel/plugin-proposal-decorators", { "legacy": true }],
+  ["@babel/plugin-syntax-dynamic-import"],
+  "transform-class-properties", ["module-resolver",
+  {
+      "root": ["./src"],
+      "alias":
+        {
+          "@/services/api": "services/api",
+          "@/utils": "utils",
+          "@u": "utils",
+          "@/components": "components",
+          "@c": "components",
+          "@a": "assets"
+        }
+  }]
+]
+}

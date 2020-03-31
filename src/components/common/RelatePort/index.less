@@ -1,0 +1,25 @@
+@import '../../../assets/less/vars.less';
+.relate-port{
+  .ant-table-wrapper .ant-table-content .ant-table-body table tr:hover td {
+    background: transparent !important;
+  }
+  .ant-table-wrapper .ant-table-content .ant-table-body table tr td {
+    border-right: 1px dashed #D3D6E0 !important;
+    padding-left: 40px !important;
+    padding-right: 50px !important;
+  }
+  .ant-table-wrapper .ant-table-content .ant-table-body table tr td:last-child {
+    border-right: none !important;
+  }
+  .ant-table-wrapper .ant-table-content .ant-table-body table tr td:hover{
+    background-color: @table-td-color !important;
+  }
+  .ant-table-thead{
+    display: none !important;
+  }
+  .port-item{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+}
