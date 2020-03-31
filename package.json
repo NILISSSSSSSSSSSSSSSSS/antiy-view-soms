@@ -72,7 +72,7 @@
     "dva-loading": "^3.0.4",
     "echarts": "^4.2.0-rc.2",
     "js-md5": "^0.7.3",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-loadable": "^5.5.0",
